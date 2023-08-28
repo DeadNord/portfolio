@@ -1,0 +1,84 @@
+@import '/src/sass/variables.scss';
+
+.group {
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 40px;
+    row-gap: 40px;
+}
+
+.item {
+    // width: 50px;
+    // height: 50px;
+
+    // background-color: red;
+}
+
+.img {
+    width: 300px;
+    height: 300px;
+
+    background-color: red;
+    border-radius: 5px;
+}
+
+.title {
+    height: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: aqua;
+    border-radius: 5px;
+}
+
+.desc {
+    height: 60px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    background-color: aqua;
+    border-radius: 5px;
+}
+
+.stack {
+    height: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: aqua;
+    border-radius: 5px;
+}
+
+.stackItem:not(:last-child) {
+    margin-right: 10px;
+}
+
+.links {
+    height: 40px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: aqua;
+    border-radius: 5px;
+}
+
+.link {
+    width: 30px;
+    height: 30px;
+
+    background-color: red;
+}
+
+.link:not(:last-child) {
+    margin-right: 10px;
+}

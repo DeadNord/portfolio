@@ -1,0 +1,42 @@
+@import '/src/sass/variables.scss';
+
+.section {
+    background-color: rgb(217, 174, 96);
+    // margin-bottom: 10px;
+    padding-top: 40px;
+    padding-bottom: 200px;
+}
+
+.section:not(:last-child) {
+    border-bottom: 5px solid red;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-left: auto;
+    margin-right: auto;
+
+
+    @media screen and (min-width: $tablet) {
+        width: 768px;
+        // padding-left: 10px;
+        // padding-right: 10px;
+    }
+
+    @media screen and (min-width: $desktop) {
+        width: 1240px;
+        // padding-left: 10px;
+        // padding-right: 10px;
+    }
+}
+
+.title {
+    margin-bottom: 60px;
+
+    font-size: 20px;
+    text-transform: uppercase;
+}

@@ -1,0 +1,137 @@
+@import './sass/fontStyles.scss';
+@import '/src/sass/variables.scss';
+
+
+body {
+  font-family: Montserrat;
+  font-size: 16px;
+  line-height: 1.4;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  text-transform: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+button {
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+ul,
+ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+textarea {
+  outline: none;
+}
+
+input {
+  font-family: Montserrat;
+
+  outline: none;
+  margin: 0;
+  border: none;
+}
+
+input ::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  appearance: none;
+  margin: 0;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+input[type='number'] {
+  appearance: textfield;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus {
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+h1.descktop {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 46px;
+}
+
+h2.descktop {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+}
+
+h3.descktop {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+h4.descktop {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+h5.descktop {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  letter-spacing: 0.06em;
+}
+
+h6.descktop {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  letter-spacing: 0.06em;
+}
+
+p.descktop {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  opacity: 0.8;
+}

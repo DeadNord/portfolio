@@ -1,0 +1,107 @@
+@import '/src/sass/variables.scss';
+
+
+.group {
+    margin-bottom: 20px;
+
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    // justify-content: center;
+}
+
+.groupSoft {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.stack {
+    margin-bottom: 20px;
+
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    // justify-content: center;
+}
+
+.stackSoft {
+    display: grid;
+
+    grid-template-columns: repeat(8, 1fr);
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
+.stackLanguage {
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 20px;
+}
+
+.title {
+    margin-bottom: 20px;
+}
+
+.category {
+    // margin-bottom: 20px;
+}
+
+.list {
+    display: grid;
+
+    grid-template-columns: repeat(8, 1fr);
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
+.item {
+    // width: 50px;
+    // height: 50px;
+
+    // background-color: red;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+
+    background-color: red;
+    border-radius: 5px;
+}
+
+.desc {
+    height: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: aqua;
+    border-radius: 5px;
+}
+
+.itemSoft {
+    width: 50px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: red;
+    border-radius: 10px;
+}
+
+.language {
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    // justify-content: center;
+
+    border-radius: 10px;
+    background-color: red;
+}
