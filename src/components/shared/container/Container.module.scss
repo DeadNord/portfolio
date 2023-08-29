@@ -1,14 +1,14 @@
 @import '/src/sass/variables.scss';
 
 .section {
-    background-color: rgb(217, 174, 96);
+    background: $mainGradient;
     // margin-bottom: 10px;
     padding-top: 40px;
     padding-bottom: 200px;
 }
 
 .section:not(:last-child) {
-    border-bottom: 5px solid red;
+    border-bottom: 5px solid rgb(17, 16, 16);
 }
 
 
@@ -39,4 +39,5 @@
 
     font-size: 20px;
     text-transform: uppercase;
+    color: $whiteColor;
 }

@@ -1,23 +1,22 @@
 import s from './Info.module.scss';
 
+import info from '../../../db/info.json';
+
 const Info = () => {
   return (
     <>
       {/* <h1 className={s.title}>About Me</h1> */}
       <div className={s.container}>
         <div className={s.desc}>
-          <p className={s.name}>Yegor Osipov</p>
-          <p className={s.position}>Full-Stack Developer</p>
+          <p className={s.name}>{info.name}</p>
+          <p className={s.position}>{info.position}</p>
           <div className={s.bio}>
-            <p>
-              Junior Full-Stack(React, Node.js). Graduated FullStack Dev courses, Im have done
-              several successful projects (single and teams) and work experience on Freelance. I am
-              passionate about programming, my goal is to use my skills for what I love and build a
-              good and stable career.
-            </p>
+            <p>{info.desk}</p>
           </div>
           <div className={s.resume}>
-            <button>Download CV</button>
+            <button type="button" className={s.resumeBtn}>
+              Download CV
+            </button>
           </div>
         </div>
         <div>
@@ -27,8 +26,12 @@ const Info = () => {
           <div className={s.contacts}>
             <div>
               <ul className={s.list}>
-                <li className={s.item}>Link1</li>
-                <li className={s.item}>Link1</li>
+                {info.links.map(i => (
+                  <li className={s.item}>
+                    <div className={s.svg}></div>
+                    <p>{i.name}</p>
+                  </li>
+                ))}
               </ul>
               <p>eosipopo@gmail.com</p>
             </div>
