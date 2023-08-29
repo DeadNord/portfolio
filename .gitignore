@@ -148,3 +148,5 @@ package-lock.json
 
 .expo/web
 .env
+
+.build
