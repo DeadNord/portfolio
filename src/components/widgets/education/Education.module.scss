@@ -10,6 +10,14 @@
     row-gap: 40px;
 }
 
+.item {
+    padding: 15px;
+
+
+    background-color: $mainColor;
+    border-radius: 10px;
+}
+
 
 .title {
     height: 20px;
@@ -18,7 +26,7 @@
     align-items: center;
     justify-content: center;
 
-    background-color: aqua;
+    // background-color: $mainColor;
     // border-radius: 5px;
 }
 
@@ -30,7 +38,7 @@
     justify-content: center;
     flex-direction: column;
 
-    background-color: aqua;
+    // background-color: $mainColor;
     // border-radius: 5px;
 }
 
@@ -41,6 +49,6 @@
     align-items: center;
     justify-content: center;
 
-    background-color: aqua;
+    // background-color: $mainColor;
     // border-radius: 5px;
 }

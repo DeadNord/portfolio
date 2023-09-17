@@ -1,0 +1,103 @@
+{
+  "hardSkills": [
+    {
+      "category": "Core",
+      "technology": [
+        {
+          "logo": "icon-javascript",
+          "desc": "JavaScript"
+        },
+        {
+          "logo": "icon-typescript",
+          "desc": "TypeScript"
+        }
+      ]
+    },
+    {
+      "category": "Front-End Skills",
+      "technology": [
+        {
+          "logo": "icon-html5",
+          "desc": "HTML5"
+        },
+        {
+          "logo": "icon-css",
+          "desc": "CSS"
+        },
+        {
+          "logo": "icon-scss",
+          "desc": "SASS"
+        },
+        {
+          "logo": "icon-react",
+          "desc": "React"
+        },
+        {
+          "logo": "icon-reactNative",
+          "desc": "React Native"
+        },
+        {
+          "logo": "icon-redux",
+          "desc": "Redux"
+        }
+      ]
+    },
+    {
+      "category": "Back-End Skills",
+      "technology": [
+        {
+          "logo": "icon-mongodb",
+          "desc": "MongoDB"
+        },
+        {
+          "logo": "icon-nodejs",
+          "desc": "Node.js"
+        },
+        {
+          "logo": "icon-nestjs",
+          "desc": "Nest.js"
+        },
+        {
+          "logo": "icon-graphql",
+          "desc": "GraphQL"
+        }
+      ]
+    },
+    {
+      "category": "Tools",
+      "technology": [
+        {
+          "logo": "icon-github",
+          "desc": "GitHub"
+        },
+        {
+          "logo": "icon-microsoft",
+          "desc": "Microsoft"
+        },
+        {
+          "logo": "icon-postman",
+          "desc": "PostMan"
+        },
+        {
+          "logo": "icon-androidStudio",
+          "desc": "Android Studio"
+        }
+      ]
+    }
+  ],
+  "softSkills": ["Teamwork", "Communication", "Creativity", "Perfectionism", "Ambition"],
+  "languages": [
+    {
+      "language": "English",
+      "level": "Intermediate"
+    },
+    {
+      "language": "Russian",
+      "level": "Native"
+    },
+    {
+      "language": "Ukrainian",
+      "level": "Native"
+    }
+  ]
+}

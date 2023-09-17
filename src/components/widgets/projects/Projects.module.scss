@@ -3,58 +3,74 @@
 .group {
     display: grid;
 
-    grid-template-columns: repeat(3, 1fr);
+    // grid-template-columns: repeat(3, 1fr);
+    grid-auto-flow: column;
     column-gap: 40px;
     row-gap: 40px;
 }
 
 .item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    // justify-content: center;
     // width: 50px;
     // height: 50px;
 
     // background-color: red;
+    background-color: $mainColor;
+    border-radius: 10px;
 }
 
 .img {
-    width: 300px;
-    height: 300px;
+    width: auto;
+    height: 200px;
 
-    background-color: red;
-    border-radius: 5px;
+    // background-color: red;
+    // border-radius: 5px;
 }
 
 .title {
-    height: 20px;
+    // width: 120px;
+    // padding: 10px;
+    // height: 20px;
 
     display: flex;
     align-items: center;
     justify-content: center;
 
-    background-color: aqua;
-    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    // background-color: $mainColor;
+    // border-radius: 5px;
 }
 
 .desc {
-    height: 60px;
+    // height: 60px;
+    // margin-top: 10px;
+    margin-bottom: 20px;
+
 
     display: flex;
     align-items: center;
-    justify-content: center;
+    // justify-content: center;
     flex-direction: column;
 
-    background-color: aqua;
-    border-radius: 5px;
+    // background-color: $mainColor;
+    // border-radius: 5px;
 }
 
 .stack {
-    height: 20px;
+    // height: 20px;
+    margin-bottom: 20px;
 
     display: flex;
     align-items: center;
     justify-content: center;
 
-    background-color: aqua;
-    border-radius: 5px;
+    // background-color: red;
+    // border-radius: 5px;
 }
 
 .stackItem:not(:last-child) {
@@ -62,23 +78,39 @@
 }
 
 .links {
-    height: 40px;
+    // height: 40px;
+    margin-bottom: 20px;
 
     display: flex;
     align-items: center;
     justify-content: center;
 
-    background-color: aqua;
-    border-radius: 5px;
+    // background-color: $mainColor;
+    // border-radius: 5px;
+}
+
+.itemLink {
+    padding: 10px;
+
+    background-color: $greyColor;
+    border-radius: 10px;
+}
+
+.itemLink:not(:last-child) {
+    margin-right: 10px;
 }
 
 .link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.svg {
     width: 30px;
     height: 30px;
 
-    background-color: red;
-}
+    margin-bottom: 5px;
 
-.link:not(:last-child) {
-    margin-right: 10px;
+    // background-color: red;
 }

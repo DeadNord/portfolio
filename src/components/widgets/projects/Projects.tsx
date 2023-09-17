@@ -1,65 +1,67 @@
 import s from './Projects.module.scss';
+import sprite from '../../../assets/svg/sprite.svg';
+import data from '../../../db/projects.json';
 
-const data = [
-  {
-    img: '',
-    title: 'Title',
-    desc: {
-      text: 'Dada',
-      type: 'Student',
-    },
-    stack: ['React', 'JS', 'Node.js'],
-    links: [
-      {
-        git: '123',
-        livePage: '321',
-      },
-    ],
-  },
-  {
-    img: '',
-    title: 'Title',
-    desc: {
-      text: 'Dada',
-      type: 'Student',
-    },
-    stack: ['React', 'JS', 'Node.js'],
-    links: [
-      {
-        git: '123',
-      },
-    ],
-  },
-  {
-    img: '',
-    title: 'Title',
-    desc: {
-      text: 'Dada',
-      type: 'Student',
-    },
-    stack: ['React', 'JS', 'Node.js'],
-    links: [
-      {
-        livePage: '321',
-      },
-    ],
-  },
-  {
-    img: '',
-    title: 'Title',
-    desc: {
-      text: 'Dada',
-      type: 'Student',
-    },
-    stack: ['React', 'JS', 'Node.js'],
-    links: [
-      {
-        git: '',
-        livePage: '',
-      },
-    ],
-  },
-];
+// const data = [
+//   {
+//     img: '',
+//     title: 'Title',
+//     desc: {
+//       text: 'Dada',
+//       type: 'Student',
+//     },
+//     stack: ['React', 'JS', 'Node.js'],
+//     links: [
+//       {
+//         git: '123',
+//         livePage: '321',
+//       },
+//     ],
+//   },
+//   {
+//     img: '',
+//     title: 'Title',
+//     desc: {
+//       text: 'Dada',
+//       type: 'Student',
+//     },
+//     stack: ['React', 'JS', 'Node.js'],
+//     links: [
+//       {
+//         git: '123',
+//       },
+//     ],
+//   },
+//   {
+//     img: '',
+//     title: 'Title',
+//     desc: {
+//       text: 'Dada',
+//       type: 'Student',
+//     },
+//     stack: ['React', 'JS', 'Node.js'],
+//     links: [
+//       {
+//         livePage: '321',
+//       },
+//     ],
+//   },
+//   {
+//     img: '',
+//     title: 'Title',
+//     desc: {
+//       text: 'Dada',
+//       type: 'Student',
+//     },
+//     stack: ['React', 'JS', 'Node.js'],
+//     links: [
+//       {
+//         git: '',
+//         livePage: '',
+//       },
+//     ],
+//   },
+// ];
 
 const Projects = () => {
   return (
@@ -68,7 +70,7 @@ const Projects = () => {
         <div className={s.projects}>
           <ul className={s.list}>
             <li className={s.item}>
-              <div className={s.img}></div>
+              <img className={s.img} src={item.img} alt="Project Photo" />
               <div className={s.title}>{item.title}</div>
               <div className={s.desc}>
                 <p>{item.desc.text}</p>
@@ -79,14 +81,18 @@ const Projects = () => {
                   <span className={s.stackItem}>{i}</span>
                 ))}
               </div>
-              <div className={s.links}>
+              <ul className={s.links}>
                 {item?.links.map(i => (
-                  <div>
-                    {i?.git && <button className={s.link}>{i?.git}</button>}
-                    {i?.livePage && <button className={s.link}>{i?.livePage}</button>}
-                  </div>
+                  <li className={s.itemLink}>
+                    <a className={s.link} href={i.link}>
+                      <svg className={s.svg}>
+                        <use href={sprite + `#${i.img}`}></use>
+                      </svg>
+                      <p>{i.title}</p>
+                    </a>
+                  </li>
                 ))}
-              </div>
+              </ul>
             </li>
           </ul>
         </div>

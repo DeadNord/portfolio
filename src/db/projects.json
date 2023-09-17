@@ -1,0 +1,92 @@
+[
+  {
+    "img": "https://drive.google.com/uc?id=1eDIZ7tI0f8X0hYae9DkwJ8r5BONLsiIX",
+    "title": "Shop for QC",
+    "desc": {
+      "text": "Test WebShop, that maked for QC courses.",
+      "type": "Freelance"
+    },
+    "stack": ["HTML", "CSS", "SASS", "JavaScript", "TypeScript", "React", "Redux"],
+    "links": [
+      {
+        "img": "icon-play",
+        "link": "123",
+        "title": "Live Page"
+      }
+    ]
+  },
+  {
+    "img": "https://drive.google.com/uc?id=1OX3O1dpb3Yd5iRUre_XhVfYCJSNUnvRb",
+    "title": "Web3Force",
+    "desc": {
+      "text": "Blockchain social platform.",
+      "type": "Freelance"
+    },
+    "stack": [
+      "HTML",
+      "CSS",
+      "SASS",
+      "JavaScript",
+      "TypeScript",
+      "React",
+      "Redux",
+      "Node.js",
+      "Nest.js",
+      "MongoDB"
+    ],
+    "links": [
+      {
+        "img": "icon-play",
+        "link": "https://web3forces.com/",
+        "title": "Live Page"
+      }
+    ]
+  },
+  {
+    "img": "https://drive.google.com/uc?id=1W-kVyPoUQEgaB1QapuXUoT0dnL1j7trj",
+    "title": "Wallet",
+    "desc": {
+      "text": "Financial Accounting app.",
+      "type": "Student"
+    },
+    "stack": ["HTML", "CSS", "JavaScript", "React", "Redux", "Node.js", "Express", "MongoDB"],
+    "links": [
+      {
+        "img": "icon-play",
+        "link": "https://wallet-web-goit.netlify.app/login",
+        "title": "Live Page"
+      },
+      {
+        "img": "icon-github",
+        "link": "https://github.com/DeadNord/Wallet_GoIT",
+        "title": "Front-End"
+      },
+      {
+        "img": "icon-github",
+        "link": "https://github.com/DeadNord/Wallet_API_GoIT",
+        "title": "Back-End"
+      }
+    ]
+  },
+  {
+    "img": "https://drive.google.com/uc?id=1MA4iuZA5VQWTKAqiESmmOCO7-Sxv0O1g",
+    "title": "Eleanshop",
+    "desc": {
+      "text": "Shop for the sale of luxurywomen's clothing.",
+      "type": "Student"
+    },
+    "stack": ["HTML", "CSS", "SASS", "JS", "Handlebars"],
+    "links": [
+      {
+        "img": "icon-play",
+        "link": "https://deadnord.github.io/eleanshop/",
+        "title": "Live Page"
+      },
+      {
+        "img": "icon-github",
+        "link": "https://github.com/DeadNord/eleanshop",
+        "title": "Front-End"
+      }
+    ]
+  }
+]

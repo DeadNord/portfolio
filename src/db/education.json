@@ -1,0 +1,18 @@
+[
+  {
+    "title": "State University of Trade and Economics",
+    "specialisation": "Bachelor of Business Administration",
+    "date": {
+      "from": "2019",
+      "till": "2023"
+    }
+  },
+  {
+    "title": "GoIT Neoversity",
+    "specialisation": "Master of Science in Computer Science: Data Science and Data Analytics",
+    "date": {
+      "from": "2023",
+      "till": "Present"
+    }
+  }
+]

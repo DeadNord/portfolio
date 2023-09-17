@@ -1,0 +1,51 @@
+        {
+          "logo": "icon-python",
+          "desc": "Python"
+        }
+
+        
+
+{
+          "logo": "icon-docker",
+          "desc": "Docker"
+        },
+        {
+          "logo": "icon-kubernetes",
+          "desc": "Kubernetes"
+        },
+        {
+          "logo": "icon-aws",
+          "desc": "AWS"
+        },
+        {
+          "logo": "icon-tableau",
+          "desc": "Tableau"
+        },
+        {
+          "logo": "icon-keras",
+          "desc": "Keras"
+        },
+        {
+          "logo": "icon-numpy",
+          "desc": "NumPy"
+        },
+        {
+          "logo": "icon-redis",
+          "desc": "Redis"
+        }
+
+
+
+         {
+          "logo": "icon-linux",
+          "desc": "Linux"
+        },
+   
+        {
+          "logo": "icon-DBeaver",
+          "desc": "DBeaver"
+        },
+        {
+          "logo": "icon-postgresql",
+          "desc": "PostgreSQL"
+        }

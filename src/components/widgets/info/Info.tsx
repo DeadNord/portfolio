@@ -1,6 +1,7 @@
 import s from './Info.module.scss';
-
-import info from '../../../db/info.json';
+import sprite from '../../../assets/svg/sprite.svg';
+import data from '../../../db/info.json';
+import photo from '../../../assets/images/personal_photo.jpg';
 
 const Info = () => {
   return (
@@ -8,28 +9,33 @@ const Info = () => {
       {/* <h1 className={s.title}>About Me</h1> */}
       <div className={s.container}>
         <div className={s.desc}>
-          <p className={s.name}>{info.name}</p>
-          <p className={s.position}>{info.position}</p>
+          <p className={s.name}>{data.name}</p>
+          <p className={s.position}>{data.position}</p>
           <div className={s.bio}>
-            <p>{info.desk}</p>
+            <p>{data.desk}</p>
           </div>
-          <div className={s.resume}>
-            <button type="button" className={s.resumeBtn}>
+          <div className={s.resumeContainer}>
+            <a href={data.cvLink} download className={s.resume}>
               Download CV
-            </button>
+            </a>
           </div>
         </div>
         <div>
-          <div className={s.img}>
-            <img src="" alt="" />
+          <div>
+            <img className={s.img} src={data.img} alt="Personal Photo" />
           </div>
           <div className={s.contacts}>
             <div>
               <ul className={s.list}>
-                {info.links.map(i => (
+                {data.links.map(i => (
                   <li className={s.item}>
-                    <div className={s.svg}></div>
-                    <p>{i.name}</p>
+                    {/* <div className={s.svg}></div> */}
+                    <a className={s.link} href={i.url}>
+                      <svg className={s.svg}>
+                        <use href={sprite + `#${i.img}`}></use>
+                      </svg>
+                      <p>{i.name}</p>
+                    </a>
                   </li>
                 ))}
               </ul>

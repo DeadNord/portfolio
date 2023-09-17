@@ -1,23 +1,25 @@
 import s from './Education.module.scss';
 
-const data = [
-  {
-    title: 'KNUTE',
-    specialisation: 'MAnagment',
-    date: {
-      from: '2019',
-      till: 'Present',
-    },
-  },
-  {
-    title: 'KNUTE',
-    specialisation: 'MAnagment',
-    date: {
-      from: '2019',
-      till: 'Present',
-    },
-  },
-];
+import data from '../../../db/education.json';
+
+// const data = [
+//   {
+//     title: 'KNUTE',
+//     specialisation: 'MAnagment',
+//     date: {
+//       from: '2019',
+//       till: 'Present',
+//     },
+//   },
+//   {
+//     title: 'KNUTE',
+//     specialisation: 'MAnagment',
+//     date: {
+//       from: '2019',
+//       till: 'Present',
+//     },
+//   },
+// ];
 
 const Education = () => {
   return (
