@@ -2,15 +2,24 @@ import s from './Info.module.scss';
 import sprite from '../../../assets/svg/sprite.svg';
 import data from '../../../db/info.json';
 import photo from '../../../assets/images/personal_photo.jpg';
+import classNames from 'classnames';
 
 const Info = () => {
   return (
     <>
-      {/* <h1 className={s.title}>About Me</h1> */}
-      <div className={s.container}>
-        <div className={s.desc}>
-          <p className={s.name}>{data.name}</p>
+      <div className={s.center}>
+        <div className={s.mainInfo}>
           <p className={s.position}>{data.position}</p>
+          <p className={s.name}>{data.name}</p>
+        </div>
+        <div className={s.imgContainer}>
+          <img className={s.img} src={data.img} alt="Personal Photo" />
+          <p className={classNames(s.titleNav, s.navHire)}>Hire me</p>
+          <p className={classNames(s.titleNav, s.navAbout)}>About me</p>
+        </div>
+      </div>
+      <div className={classNames(s.desc, s.center)}>
+        <div>
           <div className={s.bio}>
             <p>{data.desk}</p>
           </div>
@@ -19,29 +28,29 @@ const Info = () => {
               Download CV
             </a>
           </div>
+          <div className={s.contacts}>
+            <ul>
+              <div className={s.infoWrap}>
+                <svg className={s.svg}>
+                  <use href={sprite + `#${data.email.img}`}></use>
+                </svg>
+                <p className={s.infoText}>{data.email.name}</p>
+              </div>
+              {data.links.map(i => (
+                <li className={s.item}>
+                  <a className={s.infoWrap} href={i.url}>
+                    <svg className={s.svg}>
+                      <use href={sprite + `#${i.img}`}></use>
+                    </svg>
+                    <p className={classNames(s.infoText, s.link)}>{i.name}</p>
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </div>
         </div>
         <div>
-          <div>
-            <img className={s.img} src={data.img} alt="Personal Photo" />
-          </div>
-          <div className={s.contacts}>
-            <div>
-              <ul className={s.list}>
-                {data.links.map(i => (
-                  <li className={s.item}>
-                    {/* <div className={s.svg}></div> */}
-                    <a className={s.link} href={i.url}>
-                      <svg className={s.svg}>
-                        <use href={sprite + `#${i.img}`}></use>
-                      </svg>
-                      <p>{i.name}</p>
-                    </a>
-                  </li>
-                ))}
-              </ul>
-              <p>eosipopo@gmail.com</p>
-            </div>
-          </div>
+          <h1 className={s.title}>About me</h1>
         </div>
       </div>
     </>

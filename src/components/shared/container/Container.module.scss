@@ -1,15 +1,15 @@
 @import '/src/sass/variables.scss';
 
-.section {
-    background: $mainGradient;
-    // margin-bottom: 10px;
-    padding-top: 40px;
-    padding-bottom: 200px;
-}
+// .section {
+//     background: $mainGradient;
+//     // margin-bottom: 10px;
+//     padding-top: 40px;
+//     padding-bottom: 200px;
+// }
 
-.section:not(:last-child) {
-    border-bottom: 5px solid rgb(17, 16, 16);
-}
+// .section:not(:last-child) {
+//     border-bottom: 5px solid rgb(17, 16, 16);
+// }
 
 
 .container {
@@ -17,27 +17,21 @@
     flex-direction: column;
     align-items: center;
 
-    margin-left: auto;
-    margin-right: auto;
+    // margin-left: auto;
+    // margin-right: auto;
 
-
-    @media screen and (min-width: $tablet) {
-        width: 768px;
-        // padding-left: 10px;
-        // padding-right: 10px;
-    }
 
     @media screen and (min-width: $desktop) {
-        width: 1240px;
+        width: $desktop;
         // padding-left: 10px;
         // padding-right: 10px;
     }
 }
 
-.title {
-    margin-bottom: 60px;
+// .title {
+//     margin-bottom: 60px;
 
-    font-size: 20px;
-    text-transform: uppercase;
-    color: $whiteColor;
-}
+//     font-size: 20px;
+//     text-transform: uppercase;
+//     color: $whiteColor;
+// }

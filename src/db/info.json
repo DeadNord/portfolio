@@ -2,15 +2,18 @@
   "name": "Yegor Osipov",
   "position": "Full-Stack Developer",
   "desk": "Junior Full-Stack(React, Node.js). Graduated FullStack Dev courses, Im have done several successful projects (single and teams) and work experience on Freelance. I am passionate about programming, my goal is to use my skills for what I love and build a good and stable career.",
-  "img": "https://drive.google.com/uc?id=1-jtt8HKLSAwJvE9HQge3PkUalN1_OBH9",
+  "img": "https://drive.google.com/uc?id=1PihJdMjaZQlbCcfnqvQJiIG769GliPYK",
   "links": [
     {
-      "name": "LinkedIn",
+      "name": "Yehor Osipov",
       "url": "https://www.linkedin.com/in/yegor-osipov-eod/",
-      "img": "icon-linkedin"
+      "img": "icon-linkedin_bw"
     },
-    { "name": "GitHub", "url": "https://github.com/DeadNord", "img": "icon-github" }
+    { "name": "DeadNord", "url": "https://github.com/DeadNord", "img": "icon-github_bw" }
   ],
-  "email": "eosipopo@gmail.com",
+  "email": {
+    "name": "eosipopo@gmail.com",
+    "img": "icon-email_bw"
+  },
   "cvLink": "https://drive.google.com/uc?export=download&id=1uYwnucD20URbCNHS1ZNN_YRBTlSrBo1d"
 }

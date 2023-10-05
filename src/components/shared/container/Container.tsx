@@ -10,7 +10,7 @@ const Container: React.FC<Props> = ({ children, title }) => {
   return (
     <section className={s.section}>
       <div className={s.container}>
-        <h1 className={s.title}>{title}</h1>
+        {/* <h1 className={s.title}>{title}</h1> */}
         {children}
       </div>
     </section>
