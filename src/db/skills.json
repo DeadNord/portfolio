@@ -67,12 +67,12 @@
       "category": "Tools",
       "technology": [
         {
-          "logo": "icon-github",
+          "logo": "icon-github_bw",
           "desc": "GitHub"
         },
         {
           "logo": "icon-microsoft",
-          "desc": "Microsoft"
+          "desc": "Windows"
         },
         {
           "logo": "icon-postman",

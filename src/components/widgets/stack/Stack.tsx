@@ -2,6 +2,7 @@ import s from './Stack.module.scss';
 import sprite from '../../../assets/svg/sprite.svg';
 
 import data from '../../../db/skills.json';
+import classNames from 'classnames';
 
 // const data = [
 //   {
@@ -159,25 +160,31 @@ const Stack = () => {
   return (
     <div>
       <div className={s.group}>
-        <h2 className={s.title}>Hard Skills</h2>
-        {data.hardSkills.map(item => (
-          <div className={s.stack}>
-            <p className={s.category}>{item.category}</p>
-            <ul className={s.list}>
-              {item.technology.map(item => (
-                <li className={s.item}>
-                  {/* <div className={s.logo}></div> */}
-                  <svg className={s.logo}>
-                    <use href={sprite + `#${item.logo}`}></use>
-                  </svg>
-                  <div className={s.desc}>{item.desc}</div>
-                </li>
-              ))}
-            </ul>
+        <div className={s.leftTitleWrapper}>
+          <h2 className={classNames(s.title, s.leftTitle)}>Skills</h2>
+        </div>
+        <div className={s.rightTitleWrapper}>
+          <h2 className={classNames(s.title)}>Hard</h2>
+          <div className={s.skillsWrapper}>
+            {data.hardSkills.map(item => (
+              <div className={s.categoryWrapper}>
+                <p className={s.category}>{item.category}</p>
+                <ul>
+                  {item.technology.map(item => (
+                    <li className={s.item}>
+                      <svg className={s.logo}>
+                        <use href={sprite + `#${item.logo}`}></use>
+                      </svg>
+                      <p className={s.desc}>{item.desc}</p>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            ))}
           </div>
-        ))}
+        </div>
       </div>
-      <div className={s.groupSoft}>
+      {/* <div className={s.groupSoft}>
         <h2 className={s.title}>Soft Skills</h2>
         <div className={s.stackSoft}>
           {data.softSkills.map(item => (
@@ -199,7 +206,7 @@ const Stack = () => {
             </div>
           ))}
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };

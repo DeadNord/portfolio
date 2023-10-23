@@ -11,12 +11,12 @@ function App() {
       {/* <Container title={'About me'}> */}
       <Info />
       {/* </Container> */}
-      {/* <Container title={'My Skills'}>
-        <Stack />
-      </Container>
-      <Container title={'Projects'}>
-        <Projects />
-      </Container> */}
+      {/* <Container title={'My Skills'}> */}
+      <Stack />
+      {/* </Container> */}
+      {/* <Container title={'Projects'}> */}
+      {/* <Projects /> */}
+      {/* </Container>  */}
       {/* <Container title={'Work Exprience'}>
         <Works />
       </Container> */}
