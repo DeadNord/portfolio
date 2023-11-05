@@ -184,29 +184,30 @@ const Stack = () => {
           </div>
         </div>
       </div>
-      {/* <div className={s.groupSoft}>
-        <h2 className={s.title}>Soft Skills</h2>
-        <div className={s.stackSoft}>
-          {data.softSkills.map(item => (
-            <div className={s.itemSoft}>
-              <p className={s.category}>{item}</p>
-            </div>
-          ))}
-        </div>
-      </div>
       <div className={s.groupSoft}>
-        <h2 className={s.title}>Languages</h2>
-        <div className={s.stackLanguage}>
+        <div className={classNames(s.softFlexWrapper)}>
+          <div>
+            <h2 className={classNames(s.softText, s.softTitle)}>Soft</h2>
+            <h2 className={classNames(s.softText, s.softTitle)}>Skills</h2>
+          </div>
+          <div className={classNames(s.softWrapper, s.softSkillsWrapper)}>
+            {data.softSkills.map(item => (
+              <div>
+                <p className={s.softText}>{item}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+        <div className={classNames(s.softWrapper, s.languageWrapper)}>
           {data.languages.map(item => (
             <div>
-              <div className={s.language}>
-                <p className={s.category}>{item.language}</p>
-                <p className={s.category}>{item.level}</p>
-              </div>
+              <p className={s.softText}>{item.language}</p>
+              <p className={s.softText}>{item.level}</p>
             </div>
           ))}
+          <h2 className={classNames(s.softText, s.softTitle)}>Languages</h2>
         </div>
-      </div> */}
+      </div>
     </div>
   );
 };

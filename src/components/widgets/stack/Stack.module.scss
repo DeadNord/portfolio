@@ -106,106 +106,55 @@
     display: flex;
 }
 
-// .groupSoft {
-//     display: flex;
-//     flex-direction: column;
-//     align-items: center;
+.groupSoft {
+    // display: flex;
+    padding-left: 233px;
+    padding-right: 233px;
+    padding-top: 18px;
+    padding-bottom: 36px;
 
-//     margin-bottom: 20px;
-// }
+    background-color: $blackColor;
+}
 
-// .stack {
-//     margin-bottom: 20px;
+.softFlexWrapper {
+    display: flex;
+    margin-bottom: 81px;
+}
+
+.softWrapper {
+    display: grid;
+
+    align-items: center;
+    // justify-content: center;
+}
+
+.softSkillsWrapper {
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 80px;
+    row-gap: 10px;
+
+    margin-left: auto;
+
+    align-items: center;
+    // justify-content: center;
+}
+
+.languageWrapper {
+    grid-template-columns: repeat(4, 1fr);
+}
 
 
-//     display: flex;
-//     flex-direction: column;
-//     align-items: center;
-//     // justify-content: center;
-// }
 
-// .stackSoft {
-//     display: grid;
-
-//     // grid-template-columns: repeat(8, 1fr);
-//     grid-auto-flow: column;
-//     column-gap: 20px;
-//     row-gap: 20px;
-// }
-
-// .stackLanguage {
-//     display: grid;
-
-//     grid-auto-flow: column;
-//     // grid-template-columns: repeat(3, 1fr);
-//     column-gap: 20px;
-// }
+.softText {
+    font-size: 20px;
+    line-height: 35px;
+    letter-spacing: 0.15em;
+    color: $whiteColor;
+}
 
 
-// .list {
-//     display: grid;
-
-//     grid-auto-flow: column;
-//     column-gap: 20px;
-//     row-gap: 20px;
-// }
-
-// .item {
-//     display: flex;
-//     flex-direction: column;
-//     align-items: center;
-//     justify-content: center;
-//     // width: 50px;
-//     // height: 50px;
-
-//     // background-color: red;
-// }
-
-// .logo {
-//     width: 50px;
-//     height: 50px;
-
-//     margin-bottom: 10px;
-//     // background-color: $greyBackColor;
-//     border-radius: 5px;
-// }
-
-// .desc {
-//     height: 20px;
-//     width: 100%;
-
-//     display: flex;
-//     align-items: center;
-//     justify-content: center;
-
-//     background-color: $mainColor;
-//     border-radius: 5px;
-//     // color: $wh;
-// }
-
-// .itemSoft {
-//     width: auto;
-//     padding: 10px;
-
-//     display: flex;
-//     align-items: center;
-//     justify-content: center;
-
-//     background-color: $mainColor;
-//     border-radius: 10px;
-//     // color: $whiteColor;
-// }
-
-// .language {
-//     width: auto;
-//     padding: 10px;
-
-//     // display: flex;
-//     // flex-direction: column;
-//     // align-items: center;
-//     // justify-content: center;
-
-//     border-radius: 10px;
-//     background-color: $mainColor;
-//     // color: $whiteColor;
-// }
+.softTitle {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 62px;
+}

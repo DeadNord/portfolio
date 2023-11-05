@@ -3,52 +3,97 @@
 @import '/src/sass/variables.scss';
 
 .group {
-    display: grid;
+    padding-top: 37px;
+    padding-bottom: 53px;
+    padding-left: 230px;
+    // padding-right: 233px;
+    display: flex;
+    align-items: center;
+    // justify-content: center; 
+    // display: grid;
 
-    grid-template-columns: repeat(2, 1fr);
-    column-gap: 40px;
-    row-gap: 40px;
+    // grid-template-columns: repeat(3, 1fr);
+    // column-gap: 40px;
+    // row-gap: 40px;
+}
+
+.titleSection {
+    transform: rotate(180deg);
+    writing-mode: vertical-rl;
+
+    font-size: 48px;
+    line-height: 53px;
+    letter-spacing: 0.15em;
+}
+
+.listWrapper {
+    display: flex;
+    flex-direction: column;
+
+
+    margin-left: 91px;
 }
 
 .item {
-    padding: 15px;
 
 
-    background-color: $mainColor;
-    border-radius: 10px;
+    &:not(:last-child) {
+        margin-bottom: 36px;
+    }
 }
 
+.text {
+    font-size: 20px;
+    line-height: 22px;
+    letter-spacing: 0.15em;
+}
 
 .title {
-    height: 20px;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    // background-color: $mainColor;
-    // border-radius: 5px;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
 }
 
-.desc {
-    height: 60px;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-
-    // background-color: $mainColor;
-    // border-radius: 5px;
+.desk {
+    font-size: 20px;
+    line-height: 35px;
 }
 
-.date {
-    height: 20px;
+//     background-color: $mainColor;
+//     border-radius: 10px;
+// }
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
 
-    // background-color: $mainColor;
-    // border-radius: 5px;
-}
+// .title {
+//     height: 20px;
+
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+
+//     // background-color: $mainColor;
+//     // border-radius: 5px;
+// }
+
+// .desc {
+//     height: 60px;
+
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+//     flex-direction: column;
+
+//     // background-color: $mainColor;
+//     // border-radius: 5px;
+// }
+
+// .date {
+//     height: 20px;
+
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+
+//     // background-color: $mainColor;
+//     // border-radius: 5px;
+// }

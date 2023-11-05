@@ -8,21 +8,10 @@ import Works from './components/widgets/works/Works';
 function App() {
   return (
     <>
-      {/* <Container title={'About me'}> */}
       <Info />
-      {/* </Container> */}
-      {/* <Container title={'My Skills'}> */}
       <Stack />
-      {/* </Container> */}
-      {/* <Container title={'Projects'}> */}
+      <Education />
       {/* <Projects /> */}
-      {/* </Container>  */}
-      {/* <Container title={'Work Exprience'}>
-        <Works />
-      </Container> */}
-      {/* <Container title={'Education'}>
-        <Education />
-      </Container> */}
     </>
   );
 }
