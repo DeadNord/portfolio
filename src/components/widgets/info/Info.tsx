@@ -19,10 +19,15 @@ const Info = () => {
         </div>
       </div>
       <div className={classNames(s.desc, s.center)}>
-        <div>
+        <div className={s.bioWrapper}>
           <div className={s.bio}>
             <p>{data.desk}</p>
           </div>
+          <div>
+            <h1 className={s.title}>About me</h1>
+          </div>
+        </div>
+        <div className={s.infoWrapper}>
           <div className={s.resumeContainer}>
             <a href={data.cvLink} download className={s.resume}>
               Download CV
@@ -48,9 +53,6 @@ const Info = () => {
               ))}
             </ul>
           </div>
-        </div>
-        <div>
-          <h1 className={s.title}>About me</h1>
         </div>
       </div>
     </>
