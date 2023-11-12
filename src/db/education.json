@@ -1,5 +1,6 @@
 [
   {
+    "id": "24341371234",
     "title": "State University of Trade and Economics",
     "specialisation": "Bachelor of Science in Business Management",
     "date": {
@@ -8,6 +9,7 @@
     }
   },
   {
+    "id": "1236093489353",
     "title": "GoIT Neoversity",
     "specialisation": "Master of Science in Computer Science, Data Science and Machine Learning",
     "date": {

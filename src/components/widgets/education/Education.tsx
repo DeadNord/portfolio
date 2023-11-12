@@ -31,7 +31,7 @@ const Education = () => {
       <div>
         <ul className={s.listWrapper}>
           {data.map(item => (
-            <li className={s.item}>
+            <li className={s.item} key={item.id}>
               <div className={s.text}>
                 <span>{item.date.from}</span>-<span>{item.date.till}</span>
               </div>

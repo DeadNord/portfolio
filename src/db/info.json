@@ -5,11 +5,17 @@
   "img": "https://drive.google.com/uc?id=1PihJdMjaZQlbCcfnqvQJiIG769GliPYK",
   "links": [
     {
+      "id": "312281041249",
       "name": "Yehor Osipov",
       "url": "https://www.linkedin.com/in/yegor-osipov-eod/",
       "img": "icon-linkedin_bw"
     },
-    { "name": "DeadNord", "url": "https://github.com/DeadNord", "img": "icon-github_bw" }
+    {
+      "id": "41093168924",
+      "name": "DeadNord",
+      "url": "https://github.com/DeadNord",
+      "img": "icon-github_bw"
+    }
   ],
   "email": {
     "name": "eosipopo@gmail.com",

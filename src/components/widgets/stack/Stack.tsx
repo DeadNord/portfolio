@@ -167,11 +167,11 @@ const Stack = () => {
           <h2 className={classNames(s.title)}>Hard</h2>
           <div className={s.skillsWrapper}>
             {data.hardSkills.map(item => (
-              <div className={s.categoryWrapper}>
+              <li className={s.categoryWrapper} key={item.id}>
                 <p className={s.category}>{item.category}</p>
                 <ul>
                   {item.technology.map(item => (
-                    <li className={s.item}>
+                    <li className={s.item} key={item.id}>
                       <svg className={s.logo}>
                         <use href={sprite + `#${item.logo}`}></use>
                       </svg>
@@ -179,7 +179,7 @@ const Stack = () => {
                     </li>
                   ))}
                 </ul>
-              </div>
+              </li>
             ))}
           </div>
         </div>
@@ -192,18 +192,18 @@ const Stack = () => {
           </div>
           <div className={classNames(s.softWrapper, s.softSkillsWrapper)}>
             {data.softSkills.map(item => (
-              <div>
+              <li key={item}>
                 <p className={s.softText}>{item}</p>
-              </div>
+              </li>
             ))}
           </div>
         </div>
         <div className={classNames(s.softWrapper, s.languageWrapper)}>
           {data.languages.map(item => (
-            <div>
+            <li key={item.id}>
               <p className={s.softText}>{item.language}</p>
               <p className={s.softText}>{item.level}</p>
-            </div>
+            </li>
           ))}
           <h2 className={classNames(s.softText, s.softTitle)}>Languages</h2>
         </div>

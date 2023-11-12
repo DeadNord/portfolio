@@ -42,7 +42,7 @@ const Info = () => {
                 <p className={s.infoText}>{data.email.name}</p>
               </div>
               {data.links.map(i => (
-                <li className={s.item}>
+                <li className={s.item} key={i.id}>
                   <a className={s.infoWrap} href={i.url}>
                     <svg className={s.svg}>
                       <use href={sprite + `#${i.img}`}></use>

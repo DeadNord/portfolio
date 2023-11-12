@@ -1,84 +1,104 @@
 {
   "hardSkills": [
     {
+      "id": "9024196799200",
       "category": "Core",
       "technology": [
         {
+          "id": "1243112",
           "logo": "icon-javascript",
           "desc": "JavaScript"
         },
         {
+          "id": "16658735",
           "logo": "icon-typescript",
           "desc": "TypeScript"
         }
       ]
     },
     {
+      "id": "187512401937",
       "category": "Front-End Skills",
       "technology": [
         {
+          "id": "iy873535",
           "logo": "icon-html5",
           "desc": "HTML5"
         },
         {
+          "id": "1574325",
           "logo": "icon-css",
           "desc": "CSS"
         },
         {
+          "id": "17735235",
           "logo": "icon-scss",
           "desc": "SASS"
         },
         {
+          "id": "16612432",
           "logo": "icon-react",
           "desc": "React"
         },
         {
+          "id": "12437252",
           "logo": "icon-reactNative",
           "desc": "React Native"
         },
         {
+          "id": "12357542311",
           "logo": "icon-redux",
           "desc": "Redux"
         }
       ]
     },
     {
+      "id": "138939025821",
       "category": "Back-End Skills",
       "technology": [
         {
+          "id": "12562113535",
           "logo": "icon-mongodb",
           "desc": "MongoDB"
         },
         {
+          "id": "1u74663623222",
           "logo": "icon-nodejs",
           "desc": "Node.js"
         },
         {
+          "id": "1998577043",
           "logo": "icon-nestjs",
           "desc": "Nest.js"
         },
         {
+          "id": "75968763228709246",
           "logo": "icon-graphql",
           "desc": "GraphQL"
         }
       ]
     },
     {
+      "id": "1-0998946359352",
       "category": "Tools",
       "technology": [
         {
+          "id": "15353643333",
           "logo": "icon-github_bw",
           "desc": "GitHub"
         },
         {
+          "id": "2535754533",
           "logo": "icon-microsoft",
           "desc": "Windows"
         },
         {
+          "id": "5253744444",
           "logo": "icon-postman",
           "desc": "PostMan"
         },
         {
+          "id": "253224234",
           "logo": "icon-androidStudio",
           "desc": "Android Studio"
         }
@@ -88,14 +108,17 @@
   "softSkills": ["Teamwork", "Communication", "Creativity", "Perfectionism", "Ambition"],
   "languages": [
     {
+      "id": "423111",
       "language": "English",
       "level": "Intermediate"
     },
     {
+      "id": "2325353",
       "language": "Russian",
       "level": "Native"
     },
     {
+      "id": "34224rsa",
       "language": "Ukrainian",
       "level": "Native"
     }
