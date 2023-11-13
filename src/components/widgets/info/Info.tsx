@@ -13,16 +13,20 @@ const Info = () => {
         </div>
         <div className={s.imgContainer}>
           <img className={s.img} src={data.img} alt="Personal Photo" />
-          <p className={classNames(s.titleNav, s.navHire)}>Hire me</p>
-          <p className={classNames(s.titleNav, s.navAbout)}>About me</p>
+          <a href="#hire" className={classNames(s.titleNav, s.navHire)}>
+            Hire me
+          </a>
+          <a href="#about" className={classNames(s.titleNav, s.navAbout)}>
+            About me
+          </a>
         </div>
       </div>
       <div className={classNames(s.desc, s.center)}>
         <div className={s.bioWrapper}>
-          <div className={s.bio}>
+          <div className={s.bio} id="about">
             <p>{data.desk}</p>
           </div>
-          <div>
+          <div id="hire">
             <h1 className={s.title}>About me</h1>
           </div>
         </div>

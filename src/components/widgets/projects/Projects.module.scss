@@ -3,6 +3,8 @@
 
 
 .sliderContainer {
+    position: absolute;
+    // z-index: -1;
     height: 200px;
 
     @media screen and (min-width: $desktop) {
@@ -54,12 +56,6 @@
 
     cursor: pointer;
     transition: 0.3s;
-
-    &:hover,
-    &:focus {
-        transform: scale(0.985);
-        transition: 0.3s;
-    }
 }
 
 .itemFlex {
@@ -190,10 +186,20 @@
 
 }
 
-.link {
-    position: relative;
-    z-index: -1;
+.itemLink {
+    &:not(:last-child) {
+        margin-right: 2px;
 
+    }
+
+    @media screen and (min-width: $desktop) {
+        &:not(:last-child) {
+            margin-right: 9px;
+        }
+    }
+}
+
+.link {
     width: 40px;
     height: 20px;
 
@@ -213,14 +219,11 @@
     line-height: 5px;
     letter-spacing: 0.15em;
 
-    &:not(:last-child) {
-        margin-right: 2px;
-    }
+
+
+
 
     @media screen and (min-width: $desktop) {
-        position: relative;
-        z-index: -1;
-
         width: 133px;
         height: 83px;
 
@@ -228,14 +231,10 @@
         justify-content: center;
         align-items: center;
 
-        transform: translate(0, -10px);
+        transform: translate(0, 0px);
 
 
         font-size: 16px;
         line-height: 17px;
-
-        &:not(:last-child) {
-            margin-right: 9px;
-        }
     }
 }
