@@ -1,37 +1,48 @@
 @import '/src/sass/variables.scss';
 
-@import '/src/sass/variables.scss';
 
 .group {
-    padding-top: 37px;
-    padding-bottom: 53px;
-    padding-left: 230px;
-    // padding-right: 233px;
     display: flex;
-    align-items: center;
-    // justify-content: center; 
-    // display: grid;
 
-    // grid-template-columns: repeat(3, 1fr);
-    // column-gap: 40px;
-    // row-gap: 40px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+
+    padding-left: 9px;
+
+    @media screen and (min-width: $desktop) {
+        padding-top: 37px;
+        padding-left: 230px;
+        align-items: center;
+    }
 }
 
 .titleSection {
     transform: rotate(180deg);
     writing-mode: vertical-rl;
 
-    font-size: 48px;
-    line-height: 53px;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 29px;
     letter-spacing: 0.15em;
+
+
+    @media screen and (min-width: $desktop) {
+        font-size: 48px;
+        line-height: 53px;
+
+    }
 }
 
 .listWrapper {
     display: flex;
     flex-direction: column;
 
+    margin-left: 21px;
 
-    margin-left: 91px;
+    @media screen and (min-width: $desktop) {
+        margin-left: 91px;
+
+    }
 }
 
 .item {
@@ -43,57 +54,33 @@
 }
 
 .text {
-    font-size: 20px;
-    line-height: 22px;
+    font-size: 10px;
+    line-height: 11px;
     letter-spacing: 0.15em;
+
+    @media screen and (min-width: $desktop) {
+        font-size: 20px;
+        line-height: 22px;
+    }
 }
 
 .title {
     font-weight: 700;
-    font-size: 30px;
-    line-height: 35px;
+    font-size: 15px;
+    line-height: 19px;
+
+    @media screen and (min-width: $desktop) {
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 35px;
+    }
 }
 
 .desk {
-    font-size: 20px;
-    line-height: 35px;
+    line-height: 19px;
+
+    @media screen and (min-width: $desktop) {
+        font-size: 20px;
+        line-height: 35px;
+    }
 }
-
-//     background-color: $mainColor;
-//     border-radius: 10px;
-// }
-
-
-// .title {
-//     height: 20px;
-
-//     display: flex;
-//     align-items: center;
-//     justify-content: center;
-
-//     // background-color: $mainColor;
-//     // border-radius: 5px;
-// }
-
-// .desc {
-//     height: 60px;
-
-//     display: flex;
-//     align-items: center;
-//     justify-content: center;
-//     flex-direction: column;
-
-//     // background-color: $mainColor;
-//     // border-radius: 5px;
-// }
-
-// .date {
-//     height: 20px;
-
-//     display: flex;
-//     align-items: center;
-//     justify-content: center;
-
-//     // background-color: $mainColor;
-//     // border-radius: 5px;
-// }

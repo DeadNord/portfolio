@@ -3,30 +3,11 @@ import s from './Education.module.scss';
 import data from '../../../db/education.json';
 import classNames from 'classnames';
 
-// const data = [
-//   {
-//     title: 'KNUTE',
-//     specialisation: 'MAnagment',
-//     date: {
-//       from: '2019',
-//       till: 'Present',
-//     },
-//   },
-//   {
-//     title: 'KNUTE',
-//     specialisation: 'MAnagment',
-//     date: {
-//       from: '2019',
-//       till: 'Present',
-//     },
-//   },
-// ];
-
 const Education = () => {
   return (
     <div className={s.group}>
       <div>
-        <h1 className={s.titleSection}>EDUCATION </h1>
+        <h1 className={s.titleSection}>EDUCATION</h1>
       </div>
       <div>
         <ul className={s.listWrapper}>
