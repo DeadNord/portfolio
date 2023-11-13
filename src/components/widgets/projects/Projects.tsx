@@ -11,8 +11,9 @@ const settings = {
   speed: 500,
   slidesToShow: 1,
   slidesToScroll: 1,
-  className: s.sliderContainer,
+  className: classNames(s.sliderContainer),
   dotsClass: classNames('slick-dots slick-thumb', s.sliderDots),
+  arrows: false,
 };
 
 const Projects = () => {

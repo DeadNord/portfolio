@@ -9,7 +9,7 @@ function App() {
       {/* <Info /> */}
       {/* <Stack /> */}
       <Education />
-      {/* <Projects /> */}
+      <Projects />
     </>
   );
 }
