@@ -5,6 +5,11 @@
       "category": "Core",
       "technology": [
         {
+          "id": "23626363",
+          "logo": "icon-python",
+          "desc": "Python"
+        },
+        {
           "id": "1243112",
           "logo": "icon-javascript",
           "desc": "JavaScript"
@@ -13,6 +18,17 @@
           "id": "16658735",
           "logo": "icon-typescript",
           "desc": "TypeScript"
+        }
+      ]
+    },
+    {
+      "id": "2904275205",
+      "category": "Data Analytics",
+      "technology": [
+        {
+          "id": "4232525",
+          "logo": "icon-numpy",
+          "desc": "NumPy"
         }
       ]
     },
@@ -83,14 +99,24 @@
       "category": "Tools",
       "technology": [
         {
+          "id": "2535754533",
+          "logo": "icon-microsoft",
+          "desc": "Windows"
+        },
+        {
+          "id": "23582753892",
+          "logo": "icon-linux",
+          "desc": "Linux"
+        },
+        {
           "id": "15353643333",
           "logo": "icon-github_bw",
           "desc": "GitHub"
         },
         {
-          "id": "2535754533",
-          "logo": "icon-microsoft",
-          "desc": "Windows"
+          "id": "15353643333",
+          "logo": "icon-vsCode",
+          "desc": "VSCode"
         },
         {
           "id": "5253744444",
