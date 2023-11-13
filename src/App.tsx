@@ -6,8 +6,8 @@ import Stack from './components/widgets/stack/Stack';
 function App() {
   return (
     <>
-      {/* <Info /> */}
-      {/* <Stack /> */}
+      <Info />
+      <Stack />
       <Education />
       <Projects />
     </>
