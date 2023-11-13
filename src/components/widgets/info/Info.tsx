@@ -1,7 +1,6 @@
 import s from './Info.module.scss';
 import sprite from '../../../assets/svg/sprite.svg';
 import data from '../../../db/info.json';
-import photo from '../../../assets/images/personal_photo.jpg';
 import classNames from 'classnames';
 
 const Info = () => {

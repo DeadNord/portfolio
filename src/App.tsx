@@ -8,10 +8,10 @@ import Works from './components/widgets/works/Works';
 function App() {
   return (
     <>
-      <Info />
+      {/* <Info /> */}
       <Stack />
-      <Education />
-      <Projects />
+      {/* <Education /> */}
+      {/* <Projects /> */}
     </>
   );
 }

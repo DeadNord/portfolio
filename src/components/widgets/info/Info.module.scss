@@ -4,7 +4,6 @@
 .center {
 
     @media screen and (min-width: $desktop) {
-        // padding-left: 200px;
         padding-right: 232px;
     }
 }
@@ -18,7 +17,6 @@
 
     transform: translate(0px, 30%);
 
-    // margin-right: 40px;
     margin-top: 81px;
     margin-right: 14px;
 
@@ -32,16 +30,10 @@
         height: 2px;
         background-color: $blackColor;
     }
-
-
-    @media screen and (min-width: $desktop) {
-        // margin-left: 233px;
-    }
 }
 
 
 .position {
-    // font-weight: 600;
     margin-bottom: 6px;
 
     font-size: 8px;
@@ -117,11 +109,8 @@
     @media screen and (min-width: $desktop) {
         width: 170px;
         height: 64px;
-        // font-weight: 700;
         font-size: 20px;
         line-height: 26px;
-        // letter-spacing: 0.15em;
-        // text-transform: uppercase;
     }
 }
 
@@ -138,8 +127,6 @@
 }
 
 .desc {
-    // display: flex;
-
     margin-top: 83px;
 
     @media screen and (min-width: $desktop) {
@@ -148,24 +135,19 @@
 }
 
 .title {
-    transform: rotate(0.75turn) translate(0px, 300%);
-
+    transform: rotate(0.75turn) translate(20%, 300%);
 
     font-weight: 700;
     font-size: 59px;
     line-height: 66.03px;
-    // letter-spacing: 0.15em;
     text-transform: uppercase;
 
     @media screen and (min-width: $desktop) {
-        // display: flex;
         transform: rotate(180deg);
         writing-mode: vertical-rl;
-        // font-weight: 700;
         font-size: 56px;
         line-height: 62.67px;
         letter-spacing: 0.15em;
-        // text-transform: uppercase;
     }
 }
 
@@ -198,18 +180,14 @@
 
     @media screen and (min-width: $desktop) {
         display: flex;
-        // justify-content: center;
         align-items: center;
 
         width: 762px;
 
         margin-left: 233px;
         margin-bottom: 80px;
-        // font-weight: 700;
         font-size: 20px;
         line-height: 22.38px;
-        // letter-spacing: 0.15em;
-        // text-transform: uppercase;
     }
 }
 
