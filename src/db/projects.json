@@ -8,14 +8,7 @@
       "type": "Freelance"
     },
     "stack": ["HTML", "CSS", "SASS", "JavaScript", "TypeScript", "React", "Redux"],
-    "links": [
-      {
-        "id": "12",
-        "img": "icon-play",
-        "link": "123",
-        "title": "Live Page"
-      }
-    ]
+    "links": []
   },
   {
     "id": "108583092322",
@@ -96,6 +89,30 @@
         "id": "13",
         "img": "icon-github",
         "link": "https://github.com/DeadNord/eleanshop",
+        "title": "Front-End"
+      }
+    ]
+  },
+  {
+    "id": "142735333",
+    "img": "https://drive.google.com/uc?id=1NY9LP67xsPv9MgbzdKDG5dAlx66DBQV_",
+    "title": "Filmoteka",
+    "desc": {
+      "text": "Movie search app.",
+      "type": "Student"
+    },
+    "stack": ["HTML", "CSS", "SASS", "JS", "Handlebars", "Firebase"],
+    "links": [
+      {
+        "id": "12",
+        "img": "icon-play",
+        "link": "https://deadnord.github.io/Filmoteka/",
+        "title": "Live Page"
+      },
+      {
+        "id": "13",
+        "img": "icon-github",
+        "link": "https://github.com/DeadNord/Filmoteka",
         "title": "Front-End"
       }
     ]

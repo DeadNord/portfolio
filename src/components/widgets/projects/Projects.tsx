@@ -56,9 +56,6 @@ const Projects = () => {
                       {item?.links.map(i => (
                         <li className={s.itemLink} key={i.id}>
                           <a className={s.link} href={i.link}>
-                            {/* <svg className={s.svg}>
-                              <use href={sprite + `#${i.img}`}></use>
-                            </svg> */}
                             <p>{i.title}</p>
                           </a>
                         </li>

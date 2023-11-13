@@ -9,6 +9,15 @@
     }
   },
   {
+    "id": "4920858275812",
+    "title": "IT School GoIT",
+    "specialisation": "Full-Stack Web Developer",
+    "date": {
+      "from": "2021",
+      "till": "2022"
+    }
+  },
+  {
     "id": "1236093489353",
     "title": "GoIT Neoversity",
     "specialisation": "Master of Science in Computer Science, Data Science and Machine Learning",
