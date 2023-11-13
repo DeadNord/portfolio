@@ -4,158 +4,6 @@ import sprite from '../../../assets/svg/sprite.svg';
 import data from '../../../db/skills.json';
 import classNames from 'classnames';
 
-// const data = [
-//   {
-//     category: 'Core',
-//     technology: [
-//       {
-//         logo: '',
-//         desc: 'React',
-//       },
-//       {
-//         logo: '',
-//         desc: 'React',
-//       },
-//       {
-//         logo: '',
-//         desc: 'React',
-//       },
-//       {
-//         logo: '',
-//         desc: 'React',
-//       },
-//       {
-//         logo: '',
-//         desc: 'React',
-//       },
-//       {
-//         logo: '',
-//         desc: 'React',
-//       },
-//       {
-//         logo: '',
-//         desc: 'React',
-//       },
-//       {
-//         logo: '',
-//         desc: 'React',
-//       },
-//       {
-//         logo: '',
-//         desc: 'React',
-//       },
-//       {
-//         logo: '',
-//         desc: 'React',
-//       },
-//     ],
-//   },
-//   {
-//     category: 'Front-End Skills',
-//     technology: [
-//       {
-//         logo: '',
-//         desc: 'React',
-//       },
-//       {
-//         logo: '',
-//         desc: 'React',
-//       },
-//       {
-//         logo: '',
-//         desc: 'React',
-//       },
-//       {
-//         logo: '',
-//         desc: 'React',
-//       },
-//       {
-//         logo: '',
-//         desc: 'React',
-//       },
-//       {
-//         logo: '',
-//         desc: 'React',
-//       },
-//     ],
-//   },
-//   {
-//     category: 'Back-End Skills',
-//     technology: [
-//       {
-//         logo: '',
-//         desc: 'React',
-//       },
-//       {
-//         logo: '',
-//         desc: 'React',
-//       },
-//       {
-//         logo: '',
-//         desc: 'React',
-//       },
-//       {
-//         logo: '',
-//         desc: 'React',
-//       },
-//       {
-//         logo: '',
-//         desc: 'React',
-//       },
-//       {
-//         logo: '',
-//         desc: 'React',
-//       },
-//     ],
-//   },
-//   {
-//     category: 'Tools',
-//     technology: [
-//       {
-//         logo: '',
-//         desc: 'React',
-//       },
-//       {
-//         logo: '',
-//         desc: 'React',
-//       },
-//       {
-//         logo: '',
-//         desc: 'React',
-//       },
-//       {
-//         logo: '',
-//         desc: 'React',
-//       },
-//       {
-//         logo: '',
-//         desc: 'React',
-//       },
-//       {
-//         logo: '',
-//         desc: 'React',
-//       },
-//     ],
-//   },
-// ];
-
-// const data2 = ['Int', 'Tet', 'Dad'];
-
-// const data3 = [
-//   {
-//     language: 'English',
-//     level: 'Intermediate',
-//   },
-//   {
-//     language: 'Russian',
-//     level: 'Native',
-//   },
-//   {
-//     language: 'Ukrainian',
-//     level: 'Native',
-//   },
-// ];
-
 const Stack = () => {
   return (
     <div>
@@ -165,11 +13,11 @@ const Stack = () => {
         </div>
         <div className={s.rightTitleWrapper}>
           <h2 className={classNames(s.title)}>Hard</h2>
-          <div className={s.skillsWrapper}>
+          <ul className={s.skillsWrapper}>
             {data.hardSkills.map(item => (
               <li className={s.categoryWrapper} key={item.id}>
                 <p className={s.category}>{item.category}</p>
-                <ul>
+                <ul className={s.list}>
                   {item.technology.map(item => (
                     <li className={s.item} key={item.id}>
                       <svg className={s.logo}>
@@ -181,32 +29,36 @@ const Stack = () => {
                 </ul>
               </li>
             ))}
-          </div>
+          </ul>
         </div>
       </div>
       <div className={s.groupSoft}>
         <div className={classNames(s.softFlexWrapper)}>
-          <div>
-            <h2 className={classNames(s.softText, s.softTitle)}>Soft</h2>
-            <h2 className={classNames(s.softText, s.softTitle)}>Skills</h2>
+          <div className={s.softTitleWrapper}>
+            <div>
+              <h2 className={classNames(s.softText, s.softTitle)}>Soft</h2>
+              <h2 className={classNames(s.softText, s.softTitle)}>Skills</h2>
+            </div>
           </div>
-          <div className={classNames(s.softWrapper, s.softSkillsWrapper)}>
+          <ul className={classNames(s.softWrapper, s.softSkillsWrapper)}>
             {data.softSkills.map(item => (
               <li key={item}>
                 <p className={s.softText}>{item}</p>
               </li>
             ))}
-          </div>
+          </ul>
         </div>
-        <div className={classNames(s.softWrapper, s.languageWrapper)}>
-          {data.languages.map(item => (
-            <li key={item.id}>
-              <p className={s.softText}>{item.language}</p>
-              <p className={s.softText}>{item.level}</p>
-            </li>
-          ))}
+        <ul className={s.softFlexLanguageWrapper}>
           <h2 className={classNames(s.softText, s.softTitle)}>Languages</h2>
-        </div>
+          <div className={classNames(s.softWrapper, s.languageWrapper)}>
+            {data.languages.map(item => (
+              <li key={item.id}>
+                <p className={classNames(s.softText, s.languageText)}>{item.language}</p>
+                <p className={classNames(s.softText, s.languageText)}>{item.level}</p>
+              </li>
+            ))}
+          </div>
+        </ul>
       </div>
     </div>
   );
