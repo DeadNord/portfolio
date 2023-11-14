@@ -3,6 +3,8 @@
 
 .group {
     display: flex;
+    align-items: center;
+    justify-content: center;
 
     margin-top: 35px;
     margin-bottom: 35px;
@@ -54,7 +56,8 @@
 }
 
 .text {
-    font-size: 10px;
+    // font-size: 10px;
+    font-size: 60%;
     line-height: 11px;
     letter-spacing: 0.15em;
 
@@ -66,7 +69,8 @@
 
 .title {
     font-weight: 700;
-    font-size: 15px;
+    // font-size: 15px;
+    font-size: 100%;
     line-height: 19px;
 
     @media screen and (min-width: $desktop) {

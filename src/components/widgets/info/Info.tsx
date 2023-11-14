@@ -24,7 +24,9 @@ const Info = () => {
       <div className={classNames(s.desc, s.center)}>
         <div className={s.bioWrapper}>
           <div className={s.bio} id="about">
-            <p>{data.desk}</p>
+            {data.desk.map(i => (
+              <p>{i}</p>
+            ))}
           </div>
           <div id="hire">
             <h1 className={s.title}>About me</h1>

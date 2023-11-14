@@ -185,10 +185,11 @@
 }
 
 .softTitleWrapper {
-    display: flex;
+    display: inline-flex;
     flex-direction: column;
-    align-items: end;
-    transform: translate(2%, -10%);
+    // align-items: end;
+    // margin-left: auto;
+    // transform: translate(2%, -10%);
 }
 
 .softText {
