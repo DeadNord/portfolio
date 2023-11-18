@@ -3,17 +3,18 @@
 
 
 .sliderContainer {
-    width: 80vw;
-    position: absolute;
-    height: 200px;
+    width: 294px;
+    height: 205px;
 
     @media screen and (min-width: $desktop) {
-        height: 550px;
+        width: 1073px;
+        // height: 550px;
     }
 }
 
 
 .container {
+    // width: 80vw;
     display: flex;
     justify-content: center;
     padding-bottom: 29px;
@@ -142,13 +143,22 @@
     }
 }
 
-.descText {
-    margin-top: 15px;
+
+.descTextMobile {
     font-size: 12px;
     line-height: 13px;
 
     @media screen and (min-width: $desktop) {
-        margin-top: 0;
+        display: none;
+    }
+}
+
+.descTextDesk {
+    display: none;
+
+    @media screen and (min-width: $desktop) {
+        display: block;
+        margin-top: 14px;
         margin-left: 26px;
 
         font-size: 20px;

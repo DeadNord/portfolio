@@ -27,6 +27,9 @@ const Projects = () => {
           <Slider {...settings}>
             {data.map(item => (
               <li className={s.item} key={item.id}>
+                <div className={s.descTextMobile}>
+                  <p>{item.desc.text}</p>
+                </div>
                 <div className={s.itemFlex}>
                   <div>
                     <img className={s.img} src={item.img} alt="Project Photo" />
@@ -34,7 +37,7 @@ const Projects = () => {
                   <div className={s.descWrapper}>
                     <div>
                       <div className={s.descTitle}>{item.title}</div>
-                      <div className={s.descText}>
+                      <div className={s.descTextDesk}>
                         <p>{item.desc.text}</p>
                       </div>
                     </div>
