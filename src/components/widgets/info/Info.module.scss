@@ -2,10 +2,13 @@
 
 
 .center {
+    // display: flex;
+    // flex-direction: column;
+    // align-items: center;
 
     @media screen and (min-width: $desktop) {
-        padding-left: 233px;
-        padding-right: 232px;
+        // padding-left: 233px;
+        // padding-right: 232px;
     }
 }
 
@@ -18,18 +21,22 @@
 
     transform: translate(100%, 100%);
 
-    margin-top: 81px;
-    margin-right: 14px;
+    // margin-top: 81px;
+    // margin-right: 14px;
 
     &::after {
         display: block;
         content: "";
 
-        margin-top: 6px;
+        // margin-top: 6px;
 
         width: 33px;
         height: 2px;
         background-color: $blackColor;
+    }
+
+    @media screen and (min-width: $desktop) {
+        transform: translate(80%, 100%);
     }
 }
 
