@@ -29,6 +29,16 @@
           "id": "4232525",
           "logo": "icon-numpy",
           "desc": "NumPy"
+        },
+        {
+          "id": "423224262235525",
+          "logo": "icon-matplotlib",
+          "desc": "Matplotlib"
+        },
+        {
+          "id": "4232341216745772525",
+          "logo": "icon-pandas",
+          "desc": "Pandas"
         }
       ]
     },
