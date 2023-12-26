@@ -11,6 +11,12 @@
 
     padding-left: 9px;
 
+    @media screen and (min-width: $tablet) {
+        padding-top: 37px;
+        padding-left: 230px;
+        align-items: center;
+    }
+
     @media screen and (min-width: $desktop) {
         padding-top: 37px;
         padding-left: 230px;
@@ -27,6 +33,11 @@
     line-height: 29px;
     letter-spacing: 0.15em;
 
+    @media screen and (min-width: $tablet) {
+        font-size: 48px;
+        line-height: 53px;
+
+    }
 
     @media screen and (min-width: $desktop) {
         font-size: 48px;
@@ -40,6 +51,11 @@
     flex-direction: column;
 
     margin-left: 21px;
+
+    @media screen and (min-width: $tablet) {
+        margin-left: 91px;
+
+    }
 
     @media screen and (min-width: $desktop) {
         margin-left: 91px;
@@ -61,6 +77,11 @@
     line-height: 11px;
     letter-spacing: 0.15em;
 
+    @media screen and (min-width: $tablet) {
+        font-size: 20px;
+        line-height: 22px;
+    }
+
     @media screen and (min-width: $desktop) {
         font-size: 20px;
         line-height: 22px;
@@ -73,6 +94,12 @@
     font-size: 100%;
     line-height: 19px;
 
+    @media screen and (min-width: $tablet) {
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 35px;
+    }
+
     @media screen and (min-width: $desktop) {
         font-weight: 700;
         font-size: 30px;
@@ -82,6 +109,11 @@
 
 .desk {
     line-height: 19px;
+
+    @media screen and (min-width: $tablet) {
+        font-size: 20px;
+        line-height: 35px;
+    }
 
     @media screen and (min-width: $desktop) {
         font-size: 20px;
