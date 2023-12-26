@@ -7,7 +7,7 @@
     height: 205px;
 
     @media screen and (min-width: $tablet) {
-        width: 1073px;
+        width: 510px;
         // height: 550px;
     }
 
@@ -25,9 +25,9 @@
     padding-bottom: 29px;
 
     @media screen and (min-width: $tablet) {
-        padding-left: 205px;
-        padding-right: 162px;
-        padding-bottom: 83px;
+        padding-left: 149px;
+        padding-right: 175px;
+        padding-bottom: 75px;
     }
 
     @media screen and (min-width: $desktop) {
@@ -54,7 +54,7 @@
 
 .title {
     display: inline-flex;
-    transform: translate(4%);
+    // transform: translate(2%);
 
     font-weight: 700;
     font-size: 40px;
@@ -62,14 +62,14 @@
     letter-spacing: 0.15em;
 
     @media screen and (min-width: $tablet) {
-        transform: translate(2%);
+        // transform: translate(2%);
 
-        font-size: 128px;
-        line-height: 143px;
+        font-size: 70px;
+        line-height: 78px;
     }
 
     @media screen and (min-width: $desktop) {
-        transform: translate(2%);
+        // transform: translate(2%);
 
         font-size: 128px;
         line-height: 143px;
@@ -102,8 +102,8 @@
     height: 135px;
 
     @media screen and (min-width: $tablet) {
-        width: 802px;
-        height: 455px;
+        width: 407px;
+        height: 231px;
     }
 
     @media screen and (min-width: $desktop) {
@@ -130,11 +130,12 @@
     letter-spacing: 0.15em;
 
     @media screen and (min-width: $tablet) {
-        margin-top: 98px;
-        margin-left: 26px;
+        margin-top: 60px;
+        margin-left: 15px;
+        margin-bottom: 30px;
 
-        font-size: 16px;
-        line-height: 17px;
+        font-size: 6px;
+        line-height: 7px;
     }
 
     @media screen and (min-width: $desktop) {
@@ -168,17 +169,13 @@
     letter-spacing: 0.15em;
 
     @media screen and (min-width: $tablet) {
-        width: 364px;
-        height: 73px;
+        width: 185px;
+        transform: translate(-70%, 100%);
 
         display: flex;
         justify-content: center;
         align-items: center;
         margin-bottom: 14px;
-
-
-        font-size: 36px;
-        line-height: 40px;
     }
 
     @media screen and (min-width: $desktop) {
@@ -215,16 +212,16 @@
 
     @media screen and (min-width: $tablet) {
         display: block;
-        margin-top: 14px;
-        margin-left: 26px;
+        margin-top: 25px;
+        // margin-left: 26px;
 
-        font-size: 20px;
-        line-height: 22px;
+        font-size: 8px;
+        line-height: 9px;
     }
 
     @media screen and (min-width: $desktop) {
         display: block;
-        margin-top: 14px;
+        margin-top: 80px;
         margin-left: 26px;
 
         font-size: 20px;
@@ -249,6 +246,7 @@
     display: flex;
     align-items: center;
 
+    margin-top: 10px;
     margin-left: 17px;
     margin-right: 10px;
 
@@ -257,13 +255,15 @@
     letter-spacing: 0.15em;
 
     @media screen and (min-width: $tablet) {
+        margin-top: 15px;
         margin-left: 0px;
 
-        font-size: 16px;
-        line-height: 17px;
+        font-size: 5px;
+        line-height: 6px;
     }
 
     @media screen and (min-width: $desktop) {
+        margin-top: 25px;
         margin-left: 0px;
 
         font-size: 16px;
@@ -317,8 +317,8 @@
 
 
     @media screen and (min-width: $tablet) {
-        width: 133px;
-        height: 83px;
+        width: 68px;
+        height: 42px;
 
         display: flex;
         justify-content: center;
@@ -327,8 +327,8 @@
         transform: translate(0, 0px);
 
 
-        font-size: 16px;
-        line-height: 17px;
+        font-size: 5px;
+        line-height: 5px;
     }
 
     @media screen and (min-width: $desktop) {

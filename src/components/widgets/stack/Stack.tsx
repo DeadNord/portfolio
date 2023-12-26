@@ -49,7 +49,7 @@ const Stack = () => {
           </ul>
         </div>
         <ul className={s.softFlexLanguageWrapper}>
-          <h2 className={classNames(s.softText, s.softTitle)}>Languages</h2>
+          <h2 className={classNames(s.softText, s.languageTitle)}>Languages</h2>
           <div className={classNames(s.softWrapper, s.languageWrapper)}>
             {data.languages.map(item => (
               <li key={item.id}>

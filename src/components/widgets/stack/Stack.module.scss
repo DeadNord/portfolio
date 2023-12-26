@@ -10,7 +10,7 @@
     justify-items: center;
 
     @media screen and (min-width: $tablet) {
-        padding-left: 192px;
+        padding-left: 41px;
         margin-top: 150px;
     }
 
@@ -96,6 +96,8 @@
 
     @media screen and (min-width: $tablet) {
         width: 256px;
+        font-size: 16px;
+        line-height: 17px
     }
 
     @media screen and (min-width: $desktop) {
@@ -119,10 +121,18 @@
 .item {
     display: flex;
     align-items: center;
+    
+    font-size: 10px;
+    line-height: 15px;
 
     &:not(:last-child) {
         margin-bottom: 10px;
     }
+
+    @media screen and (min-width: $tablet) {
+        font-size: 12px;
+    }
+
 }
 
 .logo {
@@ -145,10 +155,10 @@
 
 
     @media screen and (min-width: $tablet) {
-        padding-left: 233px;
-        padding-right: 233px;
+        padding-left: 50px;
+        padding-right: 67px;
         padding-top: 18px;
-        padding-bottom: 36px;
+        padding-bottom: 47px;
     }
 
     @media screen and (min-width: $desktop) {
@@ -162,7 +172,7 @@
 .softFlexWrapper {
 
     @media screen and (min-width: $tablet) {
-        display: flex;
+        // display: flex;
         margin-bottom: 81px;
     }
 
@@ -220,7 +230,7 @@
     margin-top: 24px;
 
     @media screen and (min-width: $tablet) {
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(3, 1fr);
         column-gap: 64px;
         margin-left: 55px;
         margin-top: 0;
@@ -268,6 +278,23 @@
 
     @media screen and (min-width: $desktop) {
         line-height: 22px;
+    }
+}
+
+.languageTitle {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 26px;
+    text-transform: uppercase;
+
+    @media screen and (min-width: $tablet) {
+        font-size: 28px;
+        line-height: 31px;
+    }
+
+    @media screen and (min-width: $desktop) {
+        font-size: 56px;
+        line-height: 62px;
     }
 }
 

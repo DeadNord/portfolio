@@ -7,9 +7,9 @@ function App() {
   return (
     <>
       <Info />
-      {/* <Stack />
+      <Stack />
       <Education />
-      <Projects /> */}
+      <Projects />
     </>
   );
 }
