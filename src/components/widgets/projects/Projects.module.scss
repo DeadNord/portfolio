@@ -17,23 +17,34 @@
     }
 }
 
+.sliderDots {
+    bottom: -20px !important;
+
+    @media screen and (min-width: $tablet) {
+        bottom: -100px !important;
+    }
+
+    @media screen and (min-width: $desktop) {
+        bottom: -400px !important;
+    }
+}
+
 
 .container {
-    // width: 80vw;
     display: flex;
     justify-content: center;
-    padding-bottom: 29px;
+    padding-bottom: 50px;
 
     @media screen and (min-width: $tablet) {
         padding-left: 149px;
         padding-right: 175px;
-        padding-bottom: 75px;
+        padding-bottom: 150px;
     }
 
     @media screen and (min-width: $desktop) {
         padding-left: 205px;
         padding-right: 162px;
-        padding-bottom: 83px;
+        padding-bottom: 450px;
     }
 }
 
