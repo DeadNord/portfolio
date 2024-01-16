@@ -3,33 +3,44 @@
 
 
 .group {
+    padding-left: 60px;
     margin-top: 55px;
 
-    display: flex;
-    align-items: center;
-    justify-items: center;
+    // display: flex;
+    // align-items: center;
+    // justify-items: center;
 
     @media screen and (min-width: $tablet) {
-        padding-left: 41px;
+        padding-left: 60px;
         margin-top: 150px;
     }
 
     @media screen and (min-width: $desktop) {
-        padding-left: 192px;
+        padding-left: 219px;
         margin-top: 150px;
     }
 }
 
 
-.leftTitleWrapper {
-    margin-bottom: auto;
+.titleWrapper {
+
+
+    // margin-bottom: auto;
+    @media screen and (min-width: $tablet) {
+        display: flex;
+        align-items: end;
+    }
+
+    @media screen and (min-width: $desktop) {
+        margin-bottom: 58px;
+    }
 }
 
-.rightTitleWrapper {
-    width: 100%;
+// .rightTitleWrapper {
+//     width: 100%;
 
-    margin-bottom: auto;
-}
+//     margin-bottom: auto;
+// }
 
 
 .skillsWrapper {
@@ -52,14 +63,13 @@
 }
 
 .leftTitle {
-    transform: rotate(-90deg) translate(30%);
-    transform-origin: bottom right;
+    // transform: rotate(-90deg) translate(30%);
+    // transform-origin: bottom right;
 
-    font-size: 56px;
-    line-height: 62px;
-    letter-spacing: 0.15em;
-
-    @media screen and (min-width: $tablet) {}
+    @media screen and (min-width: $tablet) {
+        font-size: 56px;
+        line-height: 50px;
+    }
 
     @media screen and (min-width: $desktop) {}
 }

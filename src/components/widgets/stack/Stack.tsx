@@ -8,11 +8,11 @@ const Stack = () => {
   return (
     <div>
       <div className={s.group}>
-        <div className={s.leftTitleWrapper}>
+        <div className={s.titleWrapper}>
+          <h2 className={classNames(s.title)}>Hard</h2>
           <h2 className={classNames(s.title, s.leftTitle)}>Skills</h2>
         </div>
-        <div className={s.rightTitleWrapper}>
-          <h2 className={classNames(s.title)}>Hard</h2>
+        <div>
           <ul className={s.skillsWrapper}>
             {data.hardSkills.map(item => (
               <li className={s.categoryWrapper} key={item.id}>

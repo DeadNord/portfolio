@@ -2,51 +2,44 @@
 
 
 .group {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
     margin-top: 35px;
     margin-bottom: 35px;
 
-    padding-left: 9px;
+    padding-left: 25px;
 
     @media screen and (min-width: $tablet) {
-        // padding-top: 37px;
         margin-top: 76px;
-        padding-left: 49px;
+        padding-left: 57px;
 
     }
 
     @media screen and (min-width: $desktop) {
-        // padding-top: 37px;
         margin-top: 76px;
-        padding-left: 190px;
+        padding-left: 200px;
         align-items: center;
     }
 }
 
 .titleSection {
-    transform: rotate(180deg);
-    -webkit-writing-mode: vertical-rl;
-    -ms-writing-mode: tb-rl;
-    writing-mode: vertical-rl;
+    margin-bottom: 10px;
 
     font-weight: 700;
-    font-size: 26px;
-    line-height: 29px;
+    font-size: 24px;
+    line-height: 26px;
     letter-spacing: 0.15em;
 
     @media screen and (min-width: $tablet) {
+        margin-bottom: 73px;
+
         font-size: 36px;
         line-height: 40px;
-
     }
 
     @media screen and (min-width: $desktop) {
+        margin-bottom: 52px;
+
         font-size: 48px;
         line-height: 53px;
-
     }
 }
 
@@ -54,16 +47,15 @@
     display: flex;
     flex-direction: column;
 
-    margin-left: 21px;
+    margin-left: 10px;
 
     @media screen and (min-width: $tablet) {
-        margin-left: 91px;
+        margin-left: 80px;
 
     }
 
     @media screen and (min-width: $desktop) {
-        margin-left: 91px;
-
+        margin-left: 0px;
     }
 }
 
