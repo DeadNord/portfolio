@@ -174,6 +174,8 @@
     @media screen and (min-width: $tablet) {
         transform: rotate(180deg);
         margin-left: 20px;
+        -webkit-writing-mode: vertical-rl;
+        -ms-writing-mode: tb-rl;
         writing-mode: vertical-rl;
         font-size: 48px;
         line-height: 53.72px;
@@ -182,6 +184,8 @@
     @media screen and (min-width: $desktop) {
         transform: rotate(180deg);
         margin-left: 360px;
+        -webkit-writing-mode: vertical-rl;
+        -ms-writing-mode: tb-rl;
         writing-mode: vertical-rl;
         font-size: 56px;
         line-height: 62.67px;

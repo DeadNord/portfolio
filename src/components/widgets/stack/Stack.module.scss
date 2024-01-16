@@ -59,9 +59,7 @@
     line-height: 62px;
     letter-spacing: 0.15em;
 
-    @media screen and (min-width: $tablet) {
-        // transform: rotate(180deg) translate(20%);
-    }
+    @media screen and (min-width: $tablet) {}
 
     @media screen and (min-width: $desktop) {}
 }
@@ -203,6 +201,7 @@
 
     @media screen and (min-width: $tablet) {
         grid-template-columns: repeat(3, 1fr);
+        -moz-column-gap: 80px;
         column-gap: 80px;
         row-gap: 10px;
 
@@ -213,6 +212,7 @@
 
     @media screen and (min-width: $desktop) {
         grid-template-columns: repeat(3, 1fr);
+        -moz-column-gap: 80px;
         column-gap: 80px;
         row-gap: 10px;
 
@@ -229,6 +229,7 @@
 
     @media screen and (min-width: $tablet) {
         grid-template-columns: repeat(3, 1fr);
+        -moz-column-gap: 64px;
         column-gap: 64px;
         margin-left: 55px;
         margin-top: 0;
@@ -236,6 +237,7 @@
 
     @media screen and (min-width: $desktop) {
         grid-template-columns: repeat(4, 1fr);
+        -moz-column-gap: 64px;
         column-gap: 64px;
         margin-left: 55px;
         margin-top: 0;
