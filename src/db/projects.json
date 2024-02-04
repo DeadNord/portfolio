@@ -1,5 +1,23 @@
 [
   {
+    "id": "2356347242523",
+    "img": "https://www.dropbox.com/scl/fi/39vws4vvgatsyko4i0brj/pythonProject_1.png?rlkey=twshgfljj21xmq1a6276juj5d&raw=1",
+    "title": "Python-Analytics",
+    "desc": {
+      "text": "Python Analytics project from courses.",
+      "type": "Student"
+    },
+    "stack": ["Python", "NumPy", "Matplotlib", "Pandas", "Sympy", "Scipy", "Google Colab"],
+    "links": [
+      {
+        "id": "19",
+        "img": "icon-play",
+        "link": "https://colab.research.google.com/drive/1YLc3u0AogwYE5qBR5QNLbbcnYL4_e7Cl#scrollTo=jaG9Ap9wMrtE",
+        "title": "Live Page"
+      }
+    ]
+  },
+  {
     "id": "139185981521-",
     "img": "https://www.dropbox.com/scl/fi/ikjmgozq1o44udyx9bvwt/shopQAImg.png?rlkey=bxo44lz69iacoujrtpraurqmp&raw=1",
     "title": "Shop for QC",

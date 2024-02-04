@@ -39,6 +39,11 @@
           "id": "4232341216745772525",
           "logo": "icon-pandas",
           "desc": "Pandas"
+        },
+        {
+          "id": "27734735252532",
+          "logo": "icon-pulp",
+          "desc": "PuLP"
         }
       ]
     },
