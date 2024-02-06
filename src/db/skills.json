@@ -142,6 +142,11 @@
           "id": "253224234",
           "logo": "icon-androidStudio",
           "desc": "Android Studio"
+        },
+        {
+          "id": "34t642234235",
+          "logo": "icon-chat-gpt",
+          "desc": "ChatGPT"
         }
       ]
     }
