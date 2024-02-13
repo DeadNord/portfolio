@@ -142,21 +142,25 @@
           "id": "253224234",
           "logo": "icon-androidStudio",
           "desc": "Android Studio"
-        },
-        {
-          "id": "34t642234235",
-          "logo": "icon-chat-gpt",
-          "desc": "ChatGPT"
         }
       ]
     }
   ],
-  "softSkills": ["Teamwork", "Communication", "Creativity", "Perfectionism", "Ambition"],
+  "softSkills": [
+    "Analytical mind",
+    "Strategic thinking",
+    "Organization skills",
+    "Leadership",
+    "Adaptability",
+    "Flexibility",
+    "Ambition",
+    "Curiosity"
+  ],
   "languages": [
     {
       "id": "423111",
       "language": "English",
-      "level": "Intermediate"
+      "level": "Upper-Intermediate"
     },
     {
       "id": "2325353",

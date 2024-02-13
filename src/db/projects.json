@@ -4,7 +4,7 @@
     "img": "https://www.dropbox.com/scl/fi/39vws4vvgatsyko4i0brj/pythonProject_1.png?rlkey=twshgfljj21xmq1a6276juj5d&raw=1",
     "title": "Python-Analytics",
     "desc": {
-      "text": "Python Analytics project from courses.",
+      "text": "Python Analytics project.",
       "type": "Student"
     },
     "stack": ["Python", "NumPy", "Matplotlib", "Pandas", "Sympy", "Scipy", "Google Colab"],
@@ -22,7 +22,7 @@
     "img": "https://www.dropbox.com/scl/fi/ikjmgozq1o44udyx9bvwt/shopQAImg.png?rlkey=bxo44lz69iacoujrtpraurqmp&raw=1",
     "title": "Shop for QC",
     "desc": {
-      "text": "Test WebShop, that maked for QC courses.",
+      "text": "An Internet platform which is an Online Store created as a working environment for a group of Testers.",
       "type": "Freelance"
     },
     "stack": ["HTML", "CSS", "SASS", "JavaScript", "TypeScript", "React", "Redux"],
@@ -33,8 +33,8 @@
     "img": "https://www.dropbox.com/scl/fi/bt3bvfbjew349jx609dcv/web3ForceImg.png?rlkey=pz48lvfbczugwr9wi3ub9gr6r&raw=1",
     "title": "Web3Force",
     "desc": {
-      "text": "Blockchain social platform.",
-      "type": "Freelance"
+      "text": "This project is a unique platform for a community of like-minded people from the field of Blockchain and NFTs.",
+      "type": "Start-Up "
     },
     "stack": [
       "HTML",
@@ -58,11 +58,35 @@
     ]
   },
   {
+    "id": "142735333",
+    "img": "https://www.dropbox.com/scl/fi/r1kmhpgdwebgjp963ymb5/filmotekaImg.png?rlkey=hl4xkmeynfwcipueruo98dlo7&raw=1",
+    "title": "Filmoteka",
+    "desc": {
+      "text": "This is a mobile application that allows you to track new movies.",
+      "type": "Student"
+    },
+    "stack": ["HTML", "CSS", "SASS", "JS", "Handlebars", "Firebase"],
+    "links": [
+      {
+        "id": "12",
+        "img": "icon-play",
+        "link": "https://deadnord.github.io/Filmoteka/",
+        "title": "Live Page"
+      },
+      {
+        "id": "13",
+        "img": "icon-github",
+        "link": "https://github.com/DeadNord/Filmoteka",
+        "title": "Front-End"
+      }
+    ]
+  },
+  {
     "id": "14235875922",
     "img": "https://www.dropbox.com/scl/fi/djm78c7ke45zzef39zox2/walletImg.png?rlkey=zkzx2vujxsw3nmttx20ofqmpq&raw=1",
     "title": "Wallet",
     "desc": {
-      "text": "Financial Accounting app.",
+      "text": "This application was developed as a tool for accounting and analyzing financial data.",
       "type": "Student"
     },
     "stack": ["HTML", "CSS", "JavaScript", "React", "Redux", "Node.js", "Express", "MongoDB"],
@@ -92,7 +116,7 @@
     "img": "https://www.dropbox.com/scl/fi/4y9wupday5n8dhj4mku5i/eleanShopImg.png?rlkey=7hnkuzmqzc49eb1ztjccfo2b0&raw=1",
     "title": "Eleanshop",
     "desc": {
-      "text": "Shop for the sale of luxurywomen's clothing.",
+      "text": "This website is made in the style of a showroom for a brand of expensive women's clothing.",
       "type": "Student"
     },
     "stack": ["HTML", "CSS", "SASS", "JS", "Handlebars"],
@@ -107,30 +131,6 @@
         "id": "13",
         "img": "icon-github",
         "link": "https://github.com/DeadNord/eleanshop",
-        "title": "Front-End"
-      }
-    ]
-  },
-  {
-    "id": "142735333",
-    "img": "https://www.dropbox.com/scl/fi/r1kmhpgdwebgjp963ymb5/filmotekaImg.png?rlkey=hl4xkmeynfwcipueruo98dlo7&raw=1",
-    "title": "Filmoteka",
-    "desc": {
-      "text": "Movie search app.",
-      "type": "Student"
-    },
-    "stack": ["HTML", "CSS", "SASS", "JS", "Handlebars", "Firebase"],
-    "links": [
-      {
-        "id": "12",
-        "img": "icon-play",
-        "link": "https://deadnord.github.io/Filmoteka/",
-        "title": "Live Page"
-      },
-      {
-        "id": "13",
-        "img": "icon-github",
-        "link": "https://github.com/DeadNord/Filmoteka",
         "title": "Front-End"
       }
     ]
