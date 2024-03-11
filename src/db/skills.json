@@ -93,9 +93,19 @@
           "desc": "MongoDB"
         },
         {
+          "id": "4235263242432",
+          "logo": "icon-postgresql",
+          "desc": "PostgreSQL"
+        },
+        {
           "id": "1u74663623222",
           "logo": "icon-nodejs",
           "desc": "Node.js"
+        },
+        {
+          "id": "526g4363453",
+          "logo": "icon-express",
+          "desc": "Express"
         },
         {
           "id": "1998577043",
@@ -142,6 +152,11 @@
           "id": "253224234",
           "logo": "icon-androidStudio",
           "desc": "Android Studio"
+        },
+        {
+          "id": "23552325235235",
+          "logo": "icon-docker",
+          "desc": "Docker"
         }
       ]
     }
