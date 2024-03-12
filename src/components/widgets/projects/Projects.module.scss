@@ -6,23 +6,45 @@
     width: 294px;
     height: 205px;
 
+    @media screen and (min-width: $tablet) {
+        width: 510px;
+        // height: 550px;
+    }
+
     @media screen and (min-width: $desktop) {
         width: 1073px;
         // height: 550px;
     }
 }
 
+.sliderDots {
+    bottom: -20px !important;
+
+    @media screen and (min-width: $tablet) {
+        bottom: -100px !important;
+    }
+
+    @media screen and (min-width: $desktop) {
+        bottom: -400px !important;
+    }
+}
+
 
 .container {
-    // width: 80vw;
     display: flex;
     justify-content: center;
-    padding-bottom: 29px;
+    padding-bottom: 50px;
+
+    @media screen and (min-width: $tablet) {
+        padding-left: 149px;
+        padding-right: 175px;
+        padding-bottom: 150px;
+    }
 
     @media screen and (min-width: $desktop) {
         padding-left: 205px;
         padding-right: 162px;
-        padding-bottom: 83px;
+        padding-bottom: 450px;
     }
 }
 
@@ -32,6 +54,10 @@
 
     margin-bottom: 28px;
 
+    @media screen and (min-width: $tablet) {
+        margin-bottom: 94px;
+    }
+
     @media screen and (min-width: $desktop) {
         margin-bottom: 94px;
     }
@@ -39,15 +65,19 @@
 
 .title {
     display: inline-flex;
-    transform: translate(4%);
 
     font-weight: 700;
     font-size: 40px;
     line-height: 44px;
     letter-spacing: 0.15em;
 
+    @media screen and (min-width: $tablet) {
+
+        font-size: 70px;
+        line-height: 78px;
+    }
+
     @media screen and (min-width: $desktop) {
-        transform: translate(2%);
 
         font-size: 128px;
         line-height: 143px;
@@ -65,6 +95,10 @@
 .itemFlex {
     display: flex;
 
+    @media screen and (min-width: $tablet) {
+        display: flex;
+    }
+
     @media screen and (min-width: $desktop) {
         display: flex;
     }
@@ -74,6 +108,11 @@
 .img {
     width: 239px;
     height: 135px;
+
+    @media screen and (min-width: $tablet) {
+        width: 407px;
+        height: 231px;
+    }
 
     @media screen and (min-width: $desktop) {
         width: 802px;
@@ -98,8 +137,16 @@
     line-height: 6px;
     letter-spacing: 0.15em;
 
+    @media screen and (min-width: $tablet) {
+        margin-top: 60px;
+        margin-left: 15px;
+        margin-bottom: 30px;
+
+        font-size: 6px;
+        line-height: 7px;
+    }
+
     @media screen and (min-width: $desktop) {
-        margin-top: 98px;
         margin-left: 26px;
 
         font-size: 16px;
@@ -128,6 +175,16 @@
     line-height: 13px;
     letter-spacing: 0.15em;
 
+    @media screen and (min-width: $tablet) {
+        width: 185px;
+        transform: translate(-70%, 100%);
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 14px;
+    }
+
     @media screen and (min-width: $desktop) {
         width: 364px;
         height: 73px;
@@ -148,6 +205,10 @@
     font-size: 12px;
     line-height: 13px;
 
+    @media screen and (min-width: $tablet) {
+        display: none;
+    }
+
     @media screen and (min-width: $desktop) {
         display: none;
     }
@@ -156,9 +217,22 @@
 .descTextDesk {
     display: none;
 
-    @media screen and (min-width: $desktop) {
+    @media screen and (min-width: $tablet) {
+        width: 100px;
+
         display: block;
-        margin-top: 14px;
+        margin-left: 10px;
+        margin-top: 25px;
+
+        font-size: 8px;
+        line-height: 9px;
+    }
+
+    @media screen and (min-width: $desktop) {
+        width: 240px;
+
+        display: block;
+        margin-top: 80px;
         margin-left: 26px;
 
         font-size: 20px;
@@ -170,6 +244,10 @@
 .linksWrapper {
     display: flex;
 
+    @media screen and (min-width: $tablet) {
+        display: flex;
+    }
+
     @media screen and (min-width: $desktop) {
         display: flex;
     }
@@ -179,6 +257,7 @@
     display: flex;
     align-items: center;
 
+    margin-top: 10px;
     margin-left: 17px;
     margin-right: 10px;
 
@@ -186,7 +265,16 @@
     line-height: 5px;
     letter-spacing: 0.15em;
 
+    @media screen and (min-width: $tablet) {
+        margin-top: 15px;
+        margin-left: 0px;
+
+        font-size: 5px;
+        line-height: 6px;
+    }
+
     @media screen and (min-width: $desktop) {
+        margin-top: 25px;
         margin-left: 0px;
 
         font-size: 16px;
@@ -203,6 +291,12 @@
     &:not(:last-child) {
         margin-right: 2px;
 
+    }
+
+    @media screen and (min-width: $tablet) {
+        &:not(:last-child) {
+            margin-right: 9px;
+        }
     }
 
     @media screen and (min-width: $desktop) {
@@ -233,8 +327,20 @@
     letter-spacing: 0.15em;
 
 
+    @media screen and (min-width: $tablet) {
+        width: 68px;
+        height: 42px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        transform: translate(0, 0px);
 
 
+        font-size: 5px;
+        line-height: 5px;
+    }
 
     @media screen and (min-width: $desktop) {
         width: 133px;

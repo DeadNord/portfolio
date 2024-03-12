@@ -29,6 +29,21 @@
           "id": "4232525",
           "logo": "icon-numpy",
           "desc": "NumPy"
+        },
+        {
+          "id": "423224262235525",
+          "logo": "icon-matplotlib",
+          "desc": "Matplotlib"
+        },
+        {
+          "id": "4232341216745772525",
+          "logo": "icon-pandas",
+          "desc": "Pandas"
+        },
+        {
+          "id": "27734735252532",
+          "logo": "icon-pulp",
+          "desc": "PuLP"
         }
       ]
     },
@@ -78,9 +93,19 @@
           "desc": "MongoDB"
         },
         {
+          "id": "4235263242432",
+          "logo": "icon-postgresql",
+          "desc": "PostgreSQL"
+        },
+        {
           "id": "1u74663623222",
           "logo": "icon-nodejs",
           "desc": "Node.js"
+        },
+        {
+          "id": "526g4363453",
+          "logo": "icon-express",
+          "desc": "Express"
         },
         {
           "id": "1998577043",
@@ -114,7 +139,7 @@
           "desc": "GitHub"
         },
         {
-          "id": "15353643333",
+          "id": "15353643033",
           "logo": "icon-vsCode",
           "desc": "VSCode"
         },
@@ -127,16 +152,30 @@
           "id": "253224234",
           "logo": "icon-androidStudio",
           "desc": "Android Studio"
+        },
+        {
+          "id": "23552325235235",
+          "logo": "icon-docker",
+          "desc": "Docker"
         }
       ]
     }
   ],
-  "softSkills": ["Teamwork", "Communication", "Creativity", "Perfectionism", "Ambition"],
+  "softSkills": [
+    "Analytical mind",
+    "Strategic thinking",
+    "Organization skills",
+    "Leadership",
+    "Adaptability",
+    "Flexibility",
+    "Ambition",
+    "Curiosity"
+  ],
   "languages": [
     {
       "id": "423111",
       "language": "English",
-      "level": "Intermediate"
+      "level": "Upper-Intermediate"
     },
     {
       "id": "2325353",

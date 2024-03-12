@@ -25,7 +25,7 @@ const Info = () => {
         <div className={s.bioWrapper}>
           <div className={s.bio} id="about">
             {data.desk.map(i => (
-              <p>{i}</p>
+              <p key={i}>{i}</p>
             ))}
           </div>
           <div id="hire">

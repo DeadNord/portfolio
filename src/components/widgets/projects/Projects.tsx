@@ -1,5 +1,5 @@
 import s from './Projects.module.scss';
-import sprite from '../../../assets/svg/sprite.svg';
+// import sprite from '../../../assets/svg/sprite.svg';
 import data from '../../../db/projects.json';
 
 import Slider from 'react-slick';
@@ -12,7 +12,7 @@ const settings = {
   slidesToShow: 1,
   slidesToScroll: 1,
   className: classNames(s.sliderContainer),
-  dotsClass: classNames('slick-dots slick-thumb', s.sliderDots),
+  dotsClass: classNames('slick-dots', s.sliderDots),
   arrows: false,
 };
 
