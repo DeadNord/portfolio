@@ -1,0 +1,16 @@
+[
+  {
+    "id": "1",
+    "title": "Full Cycle of Web Application Development",
+    "link": "https://medium.com/@eosipopo/full-cycle-of-web-application-development-e0d02bbc43bc",
+    "desc": "Collection of articles about the Full Development Cycle.",
+    "img": "https://www.dropbox.com/scl/fi/hu3ctp30zu4v0nf09nzjn/full-cycle-part1.png?rlkey=7r3f7ykpt3ni1k1id49uw11g0&raw=1"
+  },
+  {
+    "id": "2",
+    "title": "Comparison of Sorting Algorithms Performance",
+    "link": "https://medium.com/@eosipopo/comparison-of-sorting-algorithms-performance-functional-vs-class-based-approaches-0b02b64d73c3",
+    "desc": "Comparison of Sorting Algorithms Performance: Functional vs. Class-Based Approaches",
+    "img": "https://www.dropbox.com/scl/fi/h7af72n2sgjjm9ly4c468/comparison.png?rlkey=0dg4e9cwqh3s5jieoxc152327&raw=1"
+  }
+]
