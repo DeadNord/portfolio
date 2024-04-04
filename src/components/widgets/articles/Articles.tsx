@@ -1,21 +1,43 @@
 import s from './Articles.module.scss';
 import data from '../../../db/articles.json';
-
 import Slider from 'react-slick';
 import classNames from 'classnames';
-
-const settings = {
-  dots: true,
-  infinite: true,
-  speed: 500,
-  slidesToShow: 1,
-  slidesToScroll: 1,
-  className: classNames(s.sliderContainer),
-  dotsClass: classNames('slick-dots', s.sliderDots),
-  arrows: false,
-};
+import { useEffect } from 'react';
 
 const Articles = () => {
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    className: classNames(s.sliderContainer),
+    dotsClass: classNames('slick-dots', s.sliderDots),
+    arrows: false,
+  };
+
+  useEffect(() => {
+    const handleHashChange = () => {
+      const hash = window.location.hash;
+      if (hash === '#articles') {
+        const articlesElement = document.getElementById('articles');
+        if (articlesElement) {
+          window.scrollTo({
+            top: articlesElement.offsetTop,
+            behavior: 'smooth',
+          });
+        }
+      }
+    };
+
+    window.addEventListener('hashchange', handleHashChange);
+    handleHashChange(); // Вызовите обработчик хэша сразу после монтирования компонента
+
+    return () => {
+      window.removeEventListener('hashchange', handleHashChange);
+    };
+  }, []);
+
   return (
     <div id="articles">
       <div className={s.titleWrapper}>
