@@ -116,6 +116,16 @@
           "id": "75968763228709246",
           "logo": "icon-graphql",
           "desc": "GraphQL"
+        },
+        {
+          "id": "23525253272",
+          "logo": "icon-django",
+          "desc": "Django"
+        },
+        {
+          "id": "23525253272",
+          "logo": "icon-nginx",
+          "desc": "Nginx"
         }
       ]
     },
