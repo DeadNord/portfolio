@@ -1,5 +1,48 @@
 [
   {
+    "id": "23563472235342523",
+    "img": "https://www.dropbox.com/scl/fi/fek5j2rwbau92tzgn6dlh/wallet-page.png?rlkey=bzo3vq7yv6uwiywmshw1eq6b3&raw=1",
+    "title": "Wallet App",
+    "desc": {
+      "text": "Microservice project for Finances control.",
+      "type": "Student"
+    },
+    "stack": [
+      "HTML",
+      "SCSS",
+      "TypeScript",
+      "React",
+      "Redux",
+      "Node.js",
+      "Nest.js",
+      "Python",
+      "Django",
+      "Nginx",
+      "MongoDB",
+      "PostgreSQL"
+    ],
+    "links": [
+      {
+        "id": "63",
+        "img": "icon-play",
+        "link": "https://wallet-money-client.netlify.app",
+        "title": "Live Page"
+      },
+      {
+        "id": "13",
+        "img": "icon-github",
+        "link": "https://github.com/DeadNord/wallet-money-client",
+        "title": "Front-End"
+      },
+      {
+        "id": "13",
+        "img": "icon-github",
+        "link": "https://github.com/DeadNord/wallet-money-api-gateway",
+        "title": "Back-End"
+      }
+    ]
+  },
+  {
     "id": "2356347242523",
     "img": "https://www.dropbox.com/scl/fi/39vws4vvgatsyko4i0brj/pythonProject_1.png?rlkey=twshgfljj21xmq1a6276juj5d&raw=1",
     "title": "Python-Analytics",
