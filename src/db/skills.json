@@ -44,6 +44,11 @@
           "id": "27734735252532",
           "logo": "icon-pulp",
           "desc": "PuLP"
+        },
+        {
+          "id": "27734735252424532",
+          "logo": "icon-scikitLearn",
+          "desc": "Scikit-learn"
         }
       ]
     },
