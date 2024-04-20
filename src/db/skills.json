@@ -49,6 +49,11 @@
           "id": "27734735252424532",
           "logo": "icon-scikitLearn",
           "desc": "Scikit-learn"
+        },
+        {
+          "id": "27734132212252424532",
+          "logo": "icon-seaborn",
+          "desc": "Seaborn"
         }
       ]
     },
