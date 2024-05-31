@@ -179,6 +179,17 @@
           "desc": "Docker"
         }
       ]
+    },
+    {
+      "id": "1-09989463asd52",
+      "category": "Cloud",
+      "technology": [
+        {
+          "id": "25357545132",
+          "logo": "icon-aws",
+          "desc": "AWS"
+        }
+      ]
     }
   ],
   "softSkills": [
